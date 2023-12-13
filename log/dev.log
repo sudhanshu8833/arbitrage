@@ -1,0 +1,8 @@
+
+2023-10-15 16:35:32,710 - __main__ - INFO - hello how are you
+2023-10-15 16:35:32,712 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/sid/Desktop/algo-trading/PROJECTS/UI_DESKTOP/core/strategy.py", line 297, in run
+    return value
+           ^^^^^
+NameError: name 'value' is not defined
+
