@@ -1,9 +1,14 @@
 from binance.client import Client
 from binance.enums import *
 
+logins={}
 
 def login(api_key,secret_key):
+    if api_key in logins:
+        return logins[api_key]
+    
     client = Client(api_key, secret_key)
+    logins[api_key]=client
     return client
 
 
