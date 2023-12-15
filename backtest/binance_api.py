@@ -1,6 +1,14 @@
 from binance.client import Client
 from binance.enums import *
 
+from pymongo.mongo_client import MongoClient
+from pymongo.server_api import ServerApi
+import json
+uri = "mongodb+srv://sudhanshus883:uWZLgUV61vMuWp8n@cluster0.sxyyewj.mongodb.net/?retryWrites=true&w=majority"
+client = MongoClient(uri, server_api=ServerApi('1'))
+bot=client['arbitrage']
+admin=bot['admin']
+
 logins={}
 
 def login(api_key,secret_key):
@@ -28,11 +36,12 @@ def market_order(client,instrument,side,type,quantity):
     #                     quantity=.01
     #                     )
 
-
-    order_response=client.create_order(symbol=instrument,
-                        side=side,
-                        type=type,
-                        quantity=quantity)
+    data=admin.find_one()
+    if data['paper_trading']==False:
+        order_response=client.create_order(symbol=instrument,
+                            side=side,
+                            type=type,
+                            quantity=quantity)
     
     return order_response
     
