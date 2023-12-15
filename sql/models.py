@@ -12,7 +12,7 @@ Base = declarative_base()
 
 class Admin(Base):
     __tablename__ = "Admin"
-    id=Column(Integer,primary_key=True,autoincrement=True)
+    exchange=Column(String,default="BINANCE")
     api_key = Column(String)
     secret_key = Column(String)
     symbol=Column(String)
