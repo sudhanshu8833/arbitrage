@@ -1,8 +1,120 @@
-
-2023-10-15 16:35:32,710 - __main__ - INFO - hello how are you
-2023-10-15 16:35:32,712 - __main__ - ERROR - Traceback (most recent call last):
-  File "/Users/sid/Desktop/algo-trading/PROJECTS/UI_DESKTOP/core/strategy.py", line 297, in run
-    return value
-           ^^^^^
-NameError: name 'value' is not defined
+2023-12-16 19:21:26,821 - pymongo.ocsp_support - DEBUG - Peer did not staple an OCSP response
+2023-12-16 19:21:26,821 - pymongo.ocsp_support - DEBUG - Requesting OCSP data
+2023-12-16 19:21:26,821 - pymongo.ocsp_support - DEBUG - Trying http://r3.o.lencr.org
+2023-12-16 19:21:26,821 - pymongo.ocsp_support - DEBUG - Using cached OCSP response.
+2023-12-16 19:21:26,821 - pymongo.ocsp_support - DEBUG - OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2023-12-16 19:21:26,826 - pymongo.ocsp_support - DEBUG - Peer did not staple an OCSP response
+2023-12-16 19:21:26,826 - pymongo.ocsp_support - DEBUG - Requesting OCSP data
+2023-12-16 19:21:26,826 - pymongo.ocsp_support - DEBUG - Trying http://r3.o.lencr.org
+2023-12-16 19:21:26,826 - pymongo.ocsp_support - DEBUG - Peer did not staple an OCSP response
+2023-12-16 19:21:26,827 - pymongo.ocsp_support - DEBUG - Requesting OCSP data
+2023-12-16 19:21:26,827 - pymongo.ocsp_support - DEBUG - Using cached OCSP response.
+2023-12-16 19:21:26,827 - pymongo.ocsp_support - DEBUG - OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2023-12-16 19:21:26,827 - pymongo.ocsp_support - DEBUG - Trying http://r3.o.lencr.org
+2023-12-16 19:21:26,827 - pymongo.ocsp_support - DEBUG - Using cached OCSP response.
+2023-12-16 19:21:26,827 - pymongo.ocsp_support - DEBUG - OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2023-12-16 19:21:26,907 - pymongo.ocsp_support - DEBUG - Peer did not staple an OCSP response
+2023-12-16 19:21:26,908 - pymongo.ocsp_support - DEBUG - Requesting OCSP data
+2023-12-16 19:21:26,908 - pymongo.ocsp_support - DEBUG - Trying http://r3.o.lencr.org
+2023-12-16 19:21:26,912 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): r3.o.lencr.org:80
+2023-12-16 19:21:26,919 - pymongo.ocsp_support - DEBUG - Peer did not staple an OCSP response
+2023-12-16 19:21:26,919 - pymongo.ocsp_support - DEBUG - Requesting OCSP data
+2023-12-16 19:21:26,919 - pymongo.ocsp_support - DEBUG - Trying http://r3.o.lencr.org
+2023-12-16 19:21:26,920 - pymongo.ocsp_support - DEBUG - Peer did not staple an OCSP response
+2023-12-16 19:21:26,921 - pymongo.ocsp_support - DEBUG - Requesting OCSP data
+2023-12-16 19:21:26,921 - pymongo.ocsp_support - DEBUG - Trying http://r3.o.lencr.org
+2023-12-16 19:21:26,926 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): r3.o.lencr.org:80
+2023-12-16 19:21:26,927 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): r3.o.lencr.org:80
+2023-12-16 19:21:26,985 - pymongo.ocsp_support - DEBUG - Peer did not staple an OCSP response
+2023-12-16 19:21:26,985 - pymongo.ocsp_support - DEBUG - Requesting OCSP data
+2023-12-16 19:21:26,985 - pymongo.ocsp_support - DEBUG - Trying http://r3.o.lencr.org
+2023-12-16 19:21:26,987 - urllib3.connectionpool - DEBUG - http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2023-12-16 19:21:26,988 - pymongo.ocsp_support - DEBUG - OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2023-12-16 19:21:26,988 - pymongo.ocsp_support - DEBUG - Verifying response
+2023-12-16 19:21:26,989 - pymongo.ocsp_support - DEBUG - Responder is issuer
+2023-12-16 19:21:26,992 - pymongo.ocsp_support - DEBUG - Peer did not staple an OCSP response
+2023-12-16 19:21:26,992 - pymongo.ocsp_support - DEBUG - Requesting OCSP data
+2023-12-16 19:21:26,992 - pymongo.ocsp_support - DEBUG - Trying http://r3.o.lencr.org
+2023-12-16 19:21:26,994 - pymongo.ocsp_support - DEBUG - Peer did not staple an OCSP response
+2023-12-16 19:21:26,994 - pymongo.ocsp_support - DEBUG - Requesting OCSP data
+2023-12-16 19:21:26,994 - pymongo.ocsp_support - DEBUG - Trying http://r3.o.lencr.org
+2023-12-16 19:21:26,995 - pymongo.ocsp_support - DEBUG - Caching OCSP response.
+2023-12-16 19:21:26,997 - pymongo.ocsp_support - DEBUG - OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2023-12-16 19:21:27,002 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): r3.o.lencr.org:80
+2023-12-16 19:21:27,003 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): r3.o.lencr.org:80
+2023-12-16 19:21:27,003 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): r3.o.lencr.org:80
+2023-12-16 19:21:27,029 - urllib3.connectionpool - DEBUG - http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2023-12-16 19:21:27,030 - pymongo.ocsp_support - DEBUG - OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2023-12-16 19:21:27,031 - pymongo.ocsp_support - DEBUG - Verifying response
+2023-12-16 19:21:27,031 - pymongo.ocsp_support - DEBUG - Responder is issuer
+2023-12-16 19:21:27,033 - pymongo.ocsp_support - DEBUG - Caching OCSP response.
+2023-12-16 19:21:27,033 - pymongo.ocsp_support - DEBUG - OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2023-12-16 19:21:27,039 - urllib3.connectionpool - DEBUG - http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2023-12-16 19:21:27,040 - pymongo.ocsp_support - DEBUG - OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2023-12-16 19:21:27,040 - pymongo.ocsp_support - DEBUG - Verifying response
+2023-12-16 19:21:27,040 - pymongo.ocsp_support - DEBUG - Responder is issuer
+2023-12-16 19:21:27,041 - pymongo.ocsp_support - DEBUG - Caching OCSP response.
+2023-12-16 19:21:27,041 - pymongo.ocsp_support - DEBUG - OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2023-12-16 19:21:27,067 - urllib3.connectionpool - DEBUG - http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2023-12-16 19:21:27,068 - pymongo.ocsp_support - DEBUG - OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2023-12-16 19:21:27,069 - pymongo.ocsp_support - DEBUG - Verifying response
+2023-12-16 19:21:27,070 - pymongo.ocsp_support - DEBUG - Responder is issuer
+2023-12-16 19:21:27,069 - urllib3.connectionpool - DEBUG - http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2023-12-16 19:21:27,071 - urllib3.connectionpool - DEBUG - http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2023-12-16 19:21:27,072 - pymongo.ocsp_support - DEBUG - OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2023-12-16 19:21:27,073 - pymongo.ocsp_support - DEBUG - OCSP response status: <OCSPResponseStatus.SUCCESSFUL: 0>
+2023-12-16 19:21:27,073 - pymongo.ocsp_support - DEBUG - Verifying response
+2023-12-16 19:21:27,073 - pymongo.ocsp_support - DEBUG - Verifying response
+2023-12-16 19:21:27,074 - pymongo.ocsp_support - DEBUG - Responder is issuer
+2023-12-16 19:21:27,073 - pymongo.ocsp_support - DEBUG - Caching OCSP response.
+2023-12-16 19:21:27,074 - pymongo.ocsp_support - DEBUG - Responder is issuer
+2023-12-16 19:21:27,074 - pymongo.ocsp_support - DEBUG - OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2023-12-16 19:21:27,075 - pymongo.ocsp_support - DEBUG - Caching OCSP response.
+2023-12-16 19:21:27,076 - pymongo.ocsp_support - DEBUG - Caching OCSP response.
+2023-12-16 19:21:27,076 - pymongo.ocsp_support - DEBUG - OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2023-12-16 19:21:27,079 - pymongo.ocsp_support - DEBUG - OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2023-12-16 19:21:27,204 - pymongo.ocsp_support - DEBUG - Peer did not staple an OCSP response
+2023-12-16 19:21:27,205 - pymongo.ocsp_support - DEBUG - Requesting OCSP data
+2023-12-16 19:21:27,205 - pymongo.ocsp_support - DEBUG - Trying http://r3.o.lencr.org
+2023-12-16 19:21:27,205 - pymongo.ocsp_support - DEBUG - Using cached OCSP response.
+2023-12-16 19:21:27,205 - pymongo.ocsp_support - DEBUG - OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2023-12-16 19:21:27,240 - pymongo.ocsp_support - DEBUG - Peer did not staple an OCSP response
+2023-12-16 19:21:27,240 - pymongo.ocsp_support - DEBUG - Requesting OCSP data
+2023-12-16 19:21:27,240 - pymongo.ocsp_support - DEBUG - Trying http://r3.o.lencr.org
+2023-12-16 19:21:27,240 - pymongo.ocsp_support - DEBUG - Using cached OCSP response.
+2023-12-16 19:21:27,240 - pymongo.ocsp_support - DEBUG - OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2023-12-16 19:21:27,252 - pymongo.ocsp_support - DEBUG - Peer did not staple an OCSP response
+2023-12-16 19:21:27,252 - pymongo.ocsp_support - DEBUG - Requesting OCSP data
+2023-12-16 19:21:27,252 - pymongo.ocsp_support - DEBUG - Trying http://r3.o.lencr.org
+2023-12-16 19:21:27,253 - pymongo.ocsp_support - DEBUG - Using cached OCSP response.
+2023-12-16 19:21:27,253 - pymongo.ocsp_support - DEBUG - OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2023-12-16 19:21:27,273 - pymongo.ocsp_support - DEBUG - Peer did not staple an OCSP response
+2023-12-16 19:21:27,273 - pymongo.ocsp_support - DEBUG - Requesting OCSP data
+2023-12-16 19:21:27,273 - pymongo.ocsp_support - DEBUG - Trying http://r3.o.lencr.org
+2023-12-16 19:21:27,273 - pymongo.ocsp_support - DEBUG - Using cached OCSP response.
+2023-12-16 19:21:27,274 - pymongo.ocsp_support - DEBUG - OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2023-12-16 19:21:27,287 - pymongo.ocsp_support - DEBUG - Peer did not staple an OCSP response
+2023-12-16 19:21:27,287 - pymongo.ocsp_support - DEBUG - Requesting OCSP data
+2023-12-16 19:21:27,287 - pymongo.ocsp_support - DEBUG - Trying http://r3.o.lencr.org
+2023-12-16 19:21:27,287 - pymongo.ocsp_support - DEBUG - Using cached OCSP response.
+2023-12-16 19:21:27,287 - pymongo.ocsp_support - DEBUG - OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2023-12-16 19:21:27,290 - pymongo.ocsp_support - DEBUG - Peer did not staple an OCSP response
+2023-12-16 19:21:27,291 - pymongo.ocsp_support - DEBUG - Requesting OCSP data
+2023-12-16 19:21:27,291 - pymongo.ocsp_support - DEBUG - Trying http://r3.o.lencr.org
+2023-12-16 19:21:27,291 - pymongo.ocsp_support - DEBUG - Using cached OCSP response.
+2023-12-16 19:21:27,292 - pymongo.ocsp_support - DEBUG - OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2023-12-16 19:21:27,296 - pymongo.ocsp_support - DEBUG - Peer did not staple an OCSP response
+2023-12-16 19:21:27,297 - pymongo.ocsp_support - DEBUG - Requesting OCSP data
+2023-12-16 19:21:27,297 - pymongo.ocsp_support - DEBUG - Trying http://r3.o.lencr.org
+2023-12-16 19:21:27,297 - pymongo.ocsp_support - DEBUG - Using cached OCSP response.
+2023-12-16 19:21:27,297 - pymongo.ocsp_support - DEBUG - OCSP cert status: <OCSPCertStatus.GOOD: 0>
+2023-12-16 19:21:27,548 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.binance.com:443
+2023-12-16 19:21:27,828 - urllib3.connectionpool - DEBUG - https://api.binance.com:443 "GET /api/v3/ping HTTP/1.1" 200 2
+2023-12-16 19:21:28,143 - urllib3.connectionpool - DEBUG - https://api.binance.com:443 "GET /api/v3/exchangeInfo HTTP/1.1" 200 91911
+2023-12-16 19:21:28,755 - urllib3.connectionpool - DEBUG - https://api.binance.com:443 "GET /api/v3/exchangeInfo HTTP/1.1" 200 91911
+2023-12-16 19:21:28,873 - __main__ - INFO - Traceback (most recent call last):
+  File "/Users/sid/Desktop/algo-trading/PROFESSIONAL/PROJECT55_ARBITRAGE/backtest/strategy.py", line 132, in run
+    p=price
+      ^^^^^
+NameError: name 'price' is not defined
 

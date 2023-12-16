@@ -1,6 +1,6 @@
 from binance.client import Client
 from binance.enums import *
-
+from pprint import pprint
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 import json
@@ -19,6 +19,12 @@ def login(api_key,secret_key):
     logins[api_key]=client
     return client
 
+def get_balance(client,base):
+    account_info = client.get_account()
+    for wallet in account_info['balances']:
+        if wallet["asset"]==base:
+            return float(wallet['free'])
+    return 0
 
 def ltp_price(client):
     prices = client.get_all_tickers()
@@ -44,7 +50,7 @@ def market_order(client,instrument,side,type,quantity):
                             quantity=quantity)
     
     return order_response
-    
+
 
 if __name__=="__main__":
     c=login("GUf7tyd95mZMW7xXhKSuXXUhvenGaFZURNrrYFmecqZfFKGuzmYO9dRoPPR1xHTh","FGTiA20a37iEQzTgpv8pQnI4QIeNVlx6EEq5Dfu5rHB60tZVHNB1US8bc4Zu4atw")

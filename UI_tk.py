@@ -1,20 +1,23 @@
 import tkinter as tk
 from tkinter import ttk,messagebox
-from sql.models import *
 from core.strategy import *
 import threading
 
-Base.metadata.create_all(engine)
-
-Session = sessionmaker(bind=engine)
-session = Session()
+from pymongo.mongo_client import MongoClient
+from pymongo.server_api import ServerApi
+uri = "mongodb+srv://sudhanshus883:uWZLgUV61vMuWp8n@cluster0.sxyyewj.mongodb.net/?retryWrites=true&w=majority"
+client = MongoClient(uri, server_api=ServerApi('1'))
+bot=client['arbitrage']
+admin=bot['admin']
+trades=bot['trades']
 
 class App:
 
     def __init__(self,root):
+        data=admin.find_one()
         self.root=root
         self.root.title("Auto Trading Bot")
-        self.admin=session.query(Admin).filter(Admin.id==1).first()
+        self.admin=data['api_key']
         self.notebook=ttk.Notebook(root)
         self.notebook.pack(fill=tk.BOTH,expand=True)
 
@@ -32,7 +35,8 @@ class App:
         self.present_position.delete(*self.present_position.get_children())
 
         # Query the database to fetch data from the Position table
-        positions = session.query(Position).all()
+        positions = list(trades.find({}))
+        positions.reverse()
 
         # Iterate through the results and insert them into the Treeview
         for position in positions:

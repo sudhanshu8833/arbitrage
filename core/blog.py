@@ -1,7 +1,7 @@
 import binance_api
 import traceback
 import math
-
+import logging
 from pprint import pprint
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
@@ -11,18 +11,25 @@ client = MongoClient(uri, server_api=ServerApi('1'))
 bot=client['arbitrage']
 admin=bot['admin']
 
-import logging
-logger = logging.getLogger('dev_log')
+logging.basicConfig(
+    filename='log/dev.log',
+    level=logging.DEBUG,  # You can adjust the log level as needed
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
 errors=[]
 
 def check_if_float_zero(value):
     return math.isclose(value, 0.0, abs_tol=1e-3)
 
-def check_profit_loss(total_price_after_sell,initial_investment,transaction_brokerage, min_profit):
-    apprx_brokerage = transaction_brokerage * initial_investment/100 * 3
-    min_profitable_price = initial_investment + apprx_brokerage + min_profit
-    profit_loss = round(total_price_after_sell - min_profitable_price,3)
-    return profit_loss
+def check_profit_loss(total_price_after_sell,initial_investment,transaction_brokerage,minimum_profit):
+    apprx_brokerage = transaction_brokerage * (initial_investment/100) * 3
+    min_profitable_price = initial_investment + apprx_brokerage
+    profit_loss = float(total_price_after_sell) - float(min_profitable_price)
+    profit_loss_per=(profit_loss/100)*initial_investment
+
+    final_value=total_price_after_sell-apprx_brokerage
+    return profit_loss_per,final_value
 
 def get_crypto_combinations(market_symbols, base):
     combinations = []
@@ -101,33 +108,36 @@ def check_buy_sell_sell(scrip1, scrip2, scrip3,initial_investment,prices):
 
 def place_buy_order(client,scrip, quantity):
     order = binance_api.market_order(client,scrip,"BUY","MARKET", quantity)
-    return order
+    return order['fills'][0]['price']
 
 def place_sell_order(client,scrip, quantity):
     order = binance_api.market_order(client,scrip,"SELL","MARKET", quantity)
-    return order 
+    return order['fills'][0]['price']
 
 def place_trade_orders(client,type, scrip1, scrip2, scrip3, initial_amount, scrip_prices):
-    final_amount = 0.0
+
     if type == 'BUY_BUY_SELL':
-        s1_quantity = initial_amount/scrip_prices[scrip1]
-        place_buy_order(scrip1, s1_quantity, scrip_prices[scrip1])
+        s1_quantity = initial_amount/float(scrip_prices[scrip1])
+        price1=place_buy_order(scrip1, s1_quantity, float(scrip_prices[scrip1]))
         
-        s2_quantity = s1_quantity/scrip_prices[scrip2]
-        place_buy_order(scrip2, s2_quantity, scrip_prices[scrip2])
+        s2_quantity = s1_quantity/float(scrip_prices[scrip2])
+        price2=place_buy_order(scrip2, s2_quantity, float(scrip_prices[scrip2]))
         
         s3_quantity = s2_quantity
-        place_sell_order(scrip3, s3_quantity, scrip_prices[scrip3])
+        price3=place_sell_order(scrip3, s3_quantity, float(scrip_prices[scrip3]))
+
+        return price1,price2,price3
         
     elif type == 'BUY_SELL_SELL':
-        s1_quantity = initial_amount/scrip_prices[scrip1]
-        place_buy_order(scrip1, s1_quantity, scrip_prices[scrip1])
+        s1_quantity = initial_amount/float(scrip_prices[scrip1])
+        price1=place_buy_order(scrip1, s1_quantity, float(scrip_prices[scrip1]))
         
         s2_quantity = s1_quantity
-        place_sell_order(scrip2, s2_quantity, scrip_prices[scrip2])
+        price2=place_sell_order(scrip2, s2_quantity, float(scrip_prices[scrip2]))
         
-        s3_quantity = s2_quantity * scrip_prices[scrip2]
-        place_sell_order(scrip3, s3_quantity, scrip_prices[scrip3])
+        s3_quantity = s2_quantity * float(scrip_prices[scrip2])
+        price3=place_sell_order(scrip3, s3_quantity, float(scrip_prices[scrip3]))
+
+        return price1,price2,price3
         
-        
-    return final_amount
+    
