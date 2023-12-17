@@ -10,6 +10,7 @@ client = MongoClient(uri, server_api=ServerApi('1'))
 bot=client['arbitrage']
 admin=bot['admin']
 trades=bot['trades']
+screenshot=bot['screenshot']
 
 class App:
 
@@ -22,37 +23,87 @@ class App:
 
         self.tab1=ttk.Frame(self.notebook)
         self.tab2=ttk.Frame(self.notebook)
+        self.tab3=ttk.Frame(self.notebook)
 
         self.notebook.add(self.tab1,text="Input Data")
         self.notebook.add(self.tab2,text="Present positions")
+        self.notebook.add(self.tab3,text="Market Snapshot")
 
         self.tab1_fun()
-        # self.tab2_fun()
+        self.tab2_fun()
+        self.tab3_fun()
+
+        self.root.after(0, self.update_page)
+
+    def update_page(self):
+        # print(self.present_position)
+        self.populate_treeview()
+        self.populate_snapshot()
+        self.root.after(1000, self.update_page) 
 
     def populate_treeview(self):
+        print(self.present_position.get_children())
         # Clear existing data in the Treeview
         self.present_position.delete(*self.present_position.get_children())
 
         # Query the database to fetch data from the Position table
         positions = list(trades.find({}))
         positions.reverse()
-
+        # print(positions)
         # Iterate through the results and insert them into the Treeview
         for position in positions:
-            self.present_position.insert("", "end", values=(position.open_at, position.symbol, position.transaction,
-                                          position.quantity, position.present_price, position.open_price, position.profit))
+            self.present_position.insert("", "end", values=(position['time'], position['base'], position['script1'],position['script_price1'],position['script2'],position['script_price2'],position['script3'],position['script_price3'],
+                                          position['initial base account'], position['final base quantity'], position['profits']))
 
     def tab2_fun(self):
-        self.present_position=ttk.Treeview(self.tab2,columns=("Time","symbol","Transaction","Quantity","present price","bought at","profit"),show="headings")
+        self.present_position=ttk.Treeview(self.tab2,columns=("Time","Base","script1","script_price1","script2","script_price2","script3","script_price3","initial quantity","final quantity","profits"),show="headings")
         self.present_position.heading("Time",text="Time")
-        self.present_position.heading("symbol",text="symbol")
-        self.present_position.heading("Transaction",text="Transaction")
-        self.present_position.heading("Quantity",text="Quantity")
-        self.present_position.heading("present price",text="present price")
-        self.present_position.heading("bought at",text="bought at")
-        self.present_position.heading("profit",text="profit")
+        self.present_position.heading("Base",text="Base")
+        self.present_position.heading("script1",text="script1")
+        self.present_position.heading("script_price1",text="script_price1")
+        self.present_position.heading("script2",text="script2")
+        self.present_position.heading("script_price2",text="script_price2")
+        self.present_position.heading("script3",text="script3")
+        self.present_position.heading("script_price3",text="script_price3")
+        self.present_position.heading("initial quantity",text="initial quantity")
+        self.present_position.heading("final quantity",text="final quantity")
+        self.present_position.heading("profits",text="profits")
         self.present_position.pack()
         self.populate_treeview()
+
+
+    def populate_snapshot(self):
+        # Clear existing data in the Treeview
+        self.snapshot.delete(*self.snapshot.get_children())
+
+        # Query the database to fetch data from the Position table
+        positions = list(screenshot.find({}))
+        # positions.reverse()
+        # print(positions)
+        # Iterate through the results and insert them into the Treeview
+        for position in positions:
+            self.snapshot.insert("", "end", values=(position['time'], position['base'], position['script1'],position['script_price1'],position['script2'],position['script_price2'],position['script3'],position['script_price3'],
+                                          position['initial base quantity'], position['final base quantity'], position['profit']))
+
+
+
+    def tab3_fun(self):
+        self.snapshot=ttk.Treeview(self.tab3,columns=("Time","Base","script1","script_price1","script2","script_price2","script3","script_price3","initial quantity","final quantity","profits"),show="headings")
+        self.snapshot.heading("Time",text="Time")
+        self.snapshot.heading("Base",text="Base")
+        self.snapshot.heading("script1",text="script1")
+        self.snapshot.heading("script_price1",text="script_price1")
+        self.snapshot.heading("script2",text="script2")
+        self.snapshot.heading("script_price2",text="script_price2")
+        self.snapshot.heading("script3",text="script3")
+        self.snapshot.heading("script_price3",text="script_price3")
+        self.snapshot.heading("initial quantity",text="initial quantity")
+        self.snapshot.heading("final quantity",text="final quantity")
+        self.snapshot.heading("profits",text="profits")
+        self.snapshot.pack()
+        self.populate_snapshot()
+
+
 
     def tab1_fun(self):
         
@@ -128,8 +179,7 @@ class App:
         self.start.pack()
         self.dot = tk.Label(self.tab1, text="●", font=("Helvetica", 36))
         self.dot.pack() 
-        # self.dot = tk.Label(self.tab1, text="●", font=("Helvetica", 36))
-        # self.dot.pack() 
+
 
 
 
