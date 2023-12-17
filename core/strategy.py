@@ -1,9 +1,9 @@
-import binance_api
+import core.binance_api as binance_api
 import traceback
 import math
 import pandas as pd
 from datetime import datetime
-from blog import *
+from core.blog import *
 import json
 from pprint import pprint
 
@@ -14,6 +14,7 @@ client = MongoClient(uri, server_api=ServerApi('1'))
 bot=client['arbitrage']
 admin=bot['admin']
 trades=bot['trades']
+screenshot=bot['screenshot']
 
 
 
@@ -36,7 +37,7 @@ def find_delisted_coins():
     for symbol_info in exchange_info['symbols']:
         if symbol_info['status'] != 'TRADING':
             delisted_coins.append(symbol_info['symbol'])
-
+    
     return delisted_coins
 
 
@@ -69,25 +70,25 @@ def main():
 
         if s1 in delisted or s2 in delisted or s3 in delisted:
             continue
-        final_price1,scrip_price1 = check_buy_buy_sell(s1,s2,s3,data['investment'],prices)
-        profit_loss1,final_price1 = check_profit_loss(final_price1,data['investment'], data['bank_fees'], data['minimum_profit'])
+        final_price1,scrip_price1 = check_buy_buy_sell(s1,s2,s3,float(data['investment']),prices)
+        profit_loss1,final_price1 = check_profit_loss(final_price1,float(data['investment']), data['bank_fees'], float(data['minimum_profit']))
 
-        if profit_loss1>=data['minimum_profit']:
-            result=[datetime.now(),base,s1,prices[s1],s2,prices[s2],s3,prices[s3],data['investment'],final_price1,profit_loss1,"BUY_BUY_SELL"]
+        if profit_loss1>=float(data['minimum_profit']):
+            result=[datetime.now(),base,s1,prices[s1],s2,prices[s2],s3,prices[s3],float(data['investment']),final_price1,profit_loss1,"BUY_BUY_SELL"]
             results.append(result)
 
 
-        final_price2,scrip_price2 = check_buy_sell_sell(s3,s2,s1,data['investment'],prices)
-        profit_loss2,final_price2 = check_profit_loss(final_price2,data['investment'], data['bank_fees'], data['minimum_profit'])
+        final_price2,scrip_price2 = check_buy_sell_sell(s3,s2,s1,float(float(data['investment'])),prices)
+        profit_loss2,final_price2 = check_profit_loss(final_price2,float(data['investment']), data['bank_fees'], float(data['minimum_profit']))
 
-        if profit_loss2>=data['minimum_profit']:
-            result=[datetime.now(),base,s3,prices[s3],s2,prices[s2],s1,prices[s1],data['investment'],final_price2,profit_loss2,"BUY_SELL_SELL"]
+        if profit_loss2>=float(data['minimum_profit']):
+            result=[datetime.now(),base,s3,prices[s3],s2,prices[s2],s1,prices[s1],float(data['investment']),final_price2,profit_loss2,"BUY_SELL_SELL"]
             results.append(result)
 
     df=pd.DataFrame(results,columns=["time",'base','script1', 'script_price1', 'script2','script_price2','script3','script_price3','initial base quantity','final base quantity','profit','arbitrage type'])
     df=df.sort_values(by='final base quantity', ascending=False)
 
-    if df['profit'].iloc[0]>=data['minimum_profit']:
+    if df['profit'].iloc[0]>=float(data['minimum_profit']):
 
         if data['paper_trading']==False:
             try:
@@ -119,20 +120,23 @@ def main():
 
         trades.insert_one(t)
 
+    print(df)
+    df.to_csv("results.csv")
+
 
 def run():
     delisted=find_delisted_coins()
     while True:
 
-        try:
-            print(f"checked {datetime.now()}")
+        # try:
+            # print(f"checked {datetime.now()}")
             main()
-        except Exception:
-            if str(str(traceback.format_exc())) not in errors:
-                logger.info(str(traceback.format_exc()))
-                errors.append(str(traceback.format_exc()))
+        # except Exception:
+        #     if str(str(traceback.format_exc())) not in errors:
+        #         logger.info(str(traceback.format_exc()))
+        #         errors.append(str(traceback.format_exc()))
 
 if __name__=="__main__":
     delisted=find_delisted_coins()
-    run()
+    main()
     

@@ -14,10 +14,9 @@ trades=bot['trades']
 class App:
 
     def __init__(self,root):
-        data=admin.find_one()
         self.root=root
-        self.root.title("Auto Trading Bot")
-        self.admin=data['api_key']
+        self.root.title("ARBITRAGE BOT")
+        self.admin=admin.find_one()
         self.notebook=ttk.Notebook(root)
         self.notebook.pack(fill=tk.BOTH,expand=True)
 
@@ -28,7 +27,7 @@ class App:
         self.notebook.add(self.tab2,text="Present positions")
 
         self.tab1_fun()
-        self.tab2_fun()
+        # self.tab2_fun()
 
     def populate_treeview(self):
         # Clear existing data in the Treeview
@@ -57,45 +56,68 @@ class App:
 
     def tab1_fun(self):
         
-        self.admin=session.query(Admin).filter(Admin.id==1).first()
+        self.admin=admin.find_one()
 
-        self.label_API_KEY=tk.Label(self.tab1,text="API KEY")
-        self.label_API_KEY.pack()
+        # self.label_API_KEY=tk.Label(self.tab1,text="API KEY")
+        # self.label_API_KEY.pack()
 
-        self.entry_API_KEY=tk.Entry(self.tab1)
-        self.entry_API_KEY.pack()
-        self.entry_API_KEY.insert(0,self.admin.api_key)
+        # self.entry_API_KEY=tk.Entry(self.tab1)
+        # self.entry_API_KEY.pack()
+        # self.entry_API_KEY.insert(0,self.admin.api_key)
 
-        self.label_SECRET_KEY=tk.Label(self.tab1,text="SECRET KEY")
-        self.label_SECRET_KEY.pack()
+        # self.label_SECRET_KEY=tk.Label(self.tab1,text="SECRET KEY")
+        # self.label_SECRET_KEY.pack()
 
-        self.entry_SECRET_KEY=tk.Entry(self.tab1)
-        self.entry_SECRET_KEY.pack()
-        self.entry_SECRET_KEY.insert(0,self.admin.secret_key)
+        # self.entry_SECRET_KEY=tk.Entry(self.tab1)
+        # self.entry_SECRET_KEY.pack()
+        # self.entry_SECRET_KEY.insert(0,self.admin.secret_key)
 
-        self.label_SYMBOL=tk.Label(self.tab1,text="SYMBOL")
-        self.label_SYMBOL.pack()
+        self.label_EXCHANGE=tk.Label(self.tab1,text="EXCHANGE")
+        self.label_EXCHANGE.pack()
+
+        self.entry_EXCHANGE=tk.Entry(self.tab1)
+        self.entry_EXCHANGE.pack()
+        self.entry_EXCHANGE.insert(0,self.admin['exchange'])
+
+        ttk.Separator(self.tab1, orient="horizontal").pack(pady=10)
+
+        self.label_BASE=tk.Label(self.tab1,text="BASE")
+        self.label_BASE.pack()
+
+        self.entry_BASE=tk.Entry(self.tab1)
+        self.entry_BASE.pack()
+        self.entry_BASE.insert(0,self.admin['tradable_base_coins'])
+
+        ttk.Separator(self.tab1, orient="horizontal").pack(pady=10)
+
+        self.label_INVESTMENT=tk.Label(self.tab1,text="INVESTMENT % OF PORTFOLIO")
+        self.label_INVESTMENT.pack()
+
+        self.entry_INVESTMENT=tk.Entry(self.tab1)
+        self.entry_INVESTMENT.pack()
+        self.entry_INVESTMENT.insert(0,self.admin['investment'])
+
+        ttk.Separator(self.tab1, orient="horizontal").pack(pady=10)
+
+        self.label_min_profit=tk.Label(self.tab1,text="MINIMUM PROFIT")
+        self.label_min_profit.pack()
 
 
-        self.entry_SYMBOL=tk.Entry(self.tab1)
-        self.entry_SYMBOL.pack()
-        self.entry_SYMBOL.insert(0,self.admin.symbol)
+        self.entry_min_profit=tk.Entry(self.tab1)
+        self.entry_min_profit.pack()
+        self.entry_min_profit.insert(0,self.admin['minimum_profit'])
 
-        self.label_TAKEPROFIT=tk.Label(self.tab1,text="TAKE PROFIT")
-        self.label_TAKEPROFIT.pack()
-
-
-        self.entry_TAKEPROFIT=tk.Entry(self.tab1)
-        self.entry_TAKEPROFIT.pack()
-        self.entry_TAKEPROFIT.insert(0,self.admin.takeprofit)
-
-        self.label_STOPLOSS=tk.Label(self.tab1,text="STOP LOSS")
-        self.label_STOPLOSS.pack()
+        ttk.Separator(self.tab1, orient="horizontal").pack(pady=10)
 
 
-        self.entry_STOPLOSS=tk.Entry(self.tab1)
-        self.entry_STOPLOSS.pack()
-        self.entry_STOPLOSS.insert(0,self.admin.stoploss)
+        # self.check_button1 = tk.Checkbutton(self.tab1)
+        # self.check_button1.pack()
+        # self.check_button1.insert(0,self.admin['paper_trading'])
+        self.paper_trading_var = tk.BooleanVar(value=self.admin['paper_trading'])
+        self.check_button1 = tk.Checkbutton(self.tab1, text="Paper Trading", variable=self.paper_trading_var)
+        self.check_button1.pack()
+
+        ttk.Separator(self.tab1, orient="horizontal").pack(pady=10)
 
         self.submit=tk.Button(self.tab1,text="Submit",command=self.get_form_data)
         self.submit.pack()
@@ -104,42 +126,37 @@ class App:
 
         self.start=tk.Button(self.tab1,text="Start Strategy",command=self.start_strategy)
         self.start.pack()
-
         self.dot = tk.Label(self.tab1, text="●", font=("Helvetica", 36))
         self.dot.pack() 
+        # self.dot = tk.Label(self.tab1, text="●", font=("Helvetica", 36))
+        # self.dot.pack() 
 
 
 
     def start_strategy(self):
         self.dot.config(foreground="light green")
-
-        admin=session.query(Admin).all()[0]
-        admin.status=True
-        session.commit()
-
-        strat=Base_strategy(session)
-        my_thread=threading.Thread(target=strat.run)
+        my_thread=threading.Thread(target=run)
         my_thread.start()
 
 
     def get_form_data(self):
 
-        api_key = self.entry_API_KEY.get()
-        secret_key = self.entry_SECRET_KEY.get()
-        symbol = self.entry_SYMBOL.get()
-        take_profit = self.entry_TAKEPROFIT.get()
-        stop_loss = self.entry_STOPLOSS.get()
+        exchange = self.entry_EXCHANGE.get()
+        base = self.entry_BASE.get()
+        investment = self.entry_INVESTMENT.get()
+        min_profit = self.entry_min_profit.get()
+        paper = self.paper_trading_var.get()
 
-        self.admin=session.query(Admin).filter(Admin.id==1).first()
-        self.admin.api_key=api_key
-        self.admin.secret_key=secret_key
-        self.admin.symbol=symbol
-        self.admin.takeprofit=int(take_profit)
-        self.admin.stoploss=int(stop_loss)
-        session.commit()
+        self.admin=admin.find_one()
+        self.admin['exchange']=exchange
+        self.admin['tradable_base_coins']=base
+        self.admin['investment']=float(investment)
+        self.admin['minimum_profit']=float(min_profit)
+        self.admin['paper_trading']=paper
+        print(self.admin)
 
+        admin.update_one({},{'$set':self.admin})
 
-        # REFRESH 
         messagebox.showinfo("Information Updated", "The information has been updated")
 
 
