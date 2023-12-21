@@ -11,7 +11,7 @@ import os
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 uri = "mongodb+srv://sudhanshus883:uWZLgUV61vMuWp8n@cluster0.sxyyewj.mongodb.net/?retryWrites=true&w=majority"
-client = MongoClient(uri, server_api=ServerApi('1'))
+client = MongoClient(uri, server_api=ServerApi('1'),connect=False)
 bot=client['arbitrage']
 admin=bot['admin']
 trades=bot['trades']
@@ -29,6 +29,9 @@ logging.basicConfig(
     level=logging.DEBUG,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
+background={}
+with open(script_dir+"/background.json",'r') as json_file:
+    background=json.load(json_file)
 
 logger = logging.getLogger(__name__)
 
@@ -37,6 +40,11 @@ delisted=[]
 
 def find_delisted_coins():
     data=admin.find_one()
+
+    data['api_key']=background['api_key']
+    data['secret_key']=background['secret_key']
+    data['bank_fees']=float(background['bank_fees'])
+
     client=binance_api.login(data['api_key'],data['secret_key'])
     exchange_info = client.get_exchange_info()
 
@@ -55,14 +63,14 @@ def main():
     prices=binance_api.ltp_price(client)
 
     symbols=[]
-    base_currency=[]
-
-
 
     with open(script_dir+"/tokens.json",'r') as json_file:
         symbols=json.load(json_file)['symbols']
 
-    
+    data['api_key']=background['api_key']
+    data['secret_key']=background['secret_key']
+    data['bank_fees']=float(background['bank_fees'])
+
     combinations=get_crypto_combinations(symbols,data['tradable_base_coins'])
 
     initial_balance=binance_api.get_balance(client,data['tradable_base_coins'])
@@ -82,7 +90,7 @@ def main():
         final_price1,scrip_price1 = check_buy_buy_sell(s1,s2,s3,data['investment'],prices)
         profit_loss1,final_price1 = check_profit_loss(final_price1,data['investment'], data['bank_fees'], data['minimum_profit'])
 
-        if profit_loss1>=data['minimum_profit']:
+        if profit_loss1>0:
             result=[datetime.now(),base,s1,prices[s1],s2,prices[s2],s3,prices[s3],data['investment'],final_price1,profit_loss1,"BUY_BUY_SELL"]
             results.append(result)
 
@@ -90,14 +98,16 @@ def main():
         final_price2,scrip_price2 = check_buy_sell_sell(s3,s2,s1,data['investment'],prices)
         profit_loss2,final_price2 = check_profit_loss(final_price2,data['investment'], data['bank_fees'], data['minimum_profit'])
 
-        if profit_loss2>=data['minimum_profit']:
+        if profit_loss2>0:
             result=[datetime.now(),base,s3,prices[s3],s2,prices[s2],s1,prices[s1],data['investment'],final_price2,profit_loss2,"BUY_SELL_SELL"]
             results.append(result)
+
+
 
     df=pd.DataFrame(results,columns=["time",'base','script1', 'script_price1', 'script2','script_price2','script3','script_price3','initial base quantity','final base quantity','profit','arbitrage type'])
     df=df.sort_values(by='final base quantity', ascending=False)
 
-    if df['profit'].iloc[0]>=data['minimum_profit']:
+    if len(df)>=1 and df['profit'].iloc[0]>=data['minimum_profit']:
 
         if data['paper_trading']==False:
             try:
@@ -108,7 +118,6 @@ def main():
                 errors.append(str(traceback.format_exc()))
 
         final_balance=binance_api.get_balance(client,data['tradable_base_coins'])
-
 
 
         if data['paper_trading']:
@@ -133,25 +142,25 @@ def main():
         }
 
         trades.insert_one(t)
-        df['profit'].round(2)
-        data_dict = df.to_dict(orient='records')
-        screenshot.delete_many({})
-        screenshot.insert_many(data_dict)
+    
+    df['profit']=df['profit'].round(2)
+    data_dict = df.to_dict(orient='records')
+    screenshot.delete_many({})
+    screenshot.insert_many(data_dict)
 
 def run():
     global delisted
     delisted=find_delisted_coins()
     while True:
 
-        try:
+        # try:
             print(f"checked {datetime.now()}")
             main()
-        except Exception:
-            # if str(str(traceback.format_exc())) not in errors:
-            logger.info(str(traceback.format_exc()))
-            errors.append(str(traceback.format_exc()))
+        # except Exception:
+        #     # if str(str(traceback.format_exc())) not in errors:
+        #     logger.info(str(traceback.format_exc()))
+        #     errors.append(str(traceback.format_exc()))
 
 if __name__=="__main__":
     delisted=find_delisted_coins()
     run()
-    

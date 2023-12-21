@@ -1,11 +1,11 @@
-# from pprint import pprint
-# from binance.client import Client
-# from pymongo.mongo_client import MongoClient
-# from pymongo.server_api import ServerApi
-# uri = "mongodb+srv://sudhanshus883:uWZLgUV61vMuWp8n@cluster0.sxyyewj.mongodb.net/?retryWrites=true&w=majority"
-# client = MongoClient(uri, server_api=ServerApi('1'))
-# bot = client['bot']
-# admin = bot['admin']
+from pprint import pprint
+
+from pymongo.mongo_client import MongoClient
+from pymongo.server_api import ServerApi
+uri = "mongodb+srv://sudhanshus883:uWZLgUV61vMuWp8n@cluster0.sxyyewj.mongodb.net/?retryWrites=true&w=majority"
+client = MongoClient(uri, server_api=ServerApi('1'))
+bot = client['bot']
+admin = bot['admin']
 
 
 # symbols=['ETHBTC', 'LTCBTC', 'BNBBTC', 'NEOBTC', 'QTUMETH', 'EOSETH', 'SNTETH', 'BNTETH', 'GASBTC', 'BNBETH', 'BTCUSDT', 'ETHUSDT', 'LRCBTC', 'LRCETH', 'QTUMBTC', 'ZRXBTC', 'KNCBTC', 'FUNETH', 'NEOETH', 'IOTABTC', 'IOTAETH', 'LINKBTC', 'LINKETH', 'XVGETH', 'MTLBTC', 'EOSBTC', 'SNTBTC', 'ETCETH', 'ETCBTC', 'ZECBTC', 'ZECETH', 'BNTBTC', 'ASTBTC', 'DASHBTC', 'DASHETH', 'OAXBTC', 'REQBTC', 'VIBBTC', 'TRXBTC', 'TRXETH', 'POWRBTC', 'POWRETH', 'XRPBTC', 'XRPETH', 'ENJBTC', 'ENJETH', 'STORJBTC', 'BNBUSDT', 'KMDBTC', 'NULSBTC', 'XMRBTC', 'XMRETH', 'AMBBTC', 'BATBTC', 'NEOUSDT', 'LSKBTC', 'LSKETH', 'MANABTC', 'MANAETH', 'ADXBTC', 'ADXETH', 'ADABTC', 'ADAETH', 'XLMBTC', 'XLMETH', 'XLMBNB', 'LTCETH', 'LTCUSDT', 'LTCBNB', 'WAVESBTC', 'WAVESETH', 'ICXBTC', 'ELFBTC', 'ELFETH', 'RLCBTC', 'RLCETH', 'PIVXBTC', 'IOSTBTC', 'IOSTETH', 'STEEMBTC', 'STEEMETH', 'BLZBTC', 'ZILBTC', 'ZILETH', 'ONTBTC', 'QTUMUSDT', 'WANBTC', 'WANETH', 'SYSBTC', 'ADAUSDT', 'ADABNB', 'LOOMBTC', 'XRPUSDT', 'BTCTUSD', 'ETHTUSD']

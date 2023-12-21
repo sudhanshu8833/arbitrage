@@ -6,7 +6,7 @@ import threading
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 uri = "mongodb+srv://sudhanshus883:uWZLgUV61vMuWp8n@cluster0.sxyyewj.mongodb.net/?retryWrites=true&w=majority"
-client = MongoClient(uri, server_api=ServerApi('1'))
+client = MongoClient(uri, server_api=ServerApi('1'),connect=False)
 bot=client['arbitrage']
 admin=bot['admin']
 trades=bot['trades']
@@ -30,6 +30,14 @@ class App:
         self.notebook.add(self.tab2,text="Present positions")
         self.notebook.add(self.tab3,text="Market Snapshot")
 
+
+        # T1=threading.Thread(target=self.tab1_fun)
+        # T2=threading.Thread(target=self.tab2_fun)
+        # T3=threading.Thread(target=self.tab3_fun)
+        # T1.start()
+        # T2.start()
+        # T3.start()
+
         self.tab1_fun()
         self.tab2_fun()
         self.tab3_fun()
@@ -44,8 +52,6 @@ class App:
 
         T1.start()
         T2.start()
-        # self.populate_treeview()
-        # self.populate_snapshot()
         self.root.after(1000, self.update_page)
 
 
@@ -83,7 +89,9 @@ class App:
         self.present_position.heading("final quantity",text="final quantity")
         self.present_position.heading("profits",text="profits")
         self.present_position.pack(fill="both",expand=True)
-        self.populate_treeview()
+        T1=threading.Thread(target=self.populate_treeview)
+        T1.start()
+
 
 
     def populate_snapshot(self):
@@ -119,8 +127,8 @@ class App:
         self.snapshot.heading("final quantity",text="final quantity")
         self.snapshot.heading("profits",text="profits")
         self.snapshot.pack(fill="both",expand=True)
-        self.populate_snapshot()
-
+        T1=threading.Thread(target=self.populate_snapshot)
+        T1.start()
 
 
     def tab1_fun(self):
@@ -196,7 +204,7 @@ class App:
         self.start=tk.Button(self.tab1,text="Start Strategy",command=self.start_strategy)
         self.start.pack()
         self.dot = tk.Label(self.tab1, text="●", font=("Helvetica", 36))
-        self.dot.pack() 
+        self.dot.pack()
 
 
 

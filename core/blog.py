@@ -9,7 +9,7 @@ import json
 import os
 
 uri = "mongodb+srv://sudhanshus883:uWZLgUV61vMuWp8n@cluster0.sxyyewj.mongodb.net/?retryWrites=true&w=majority"
-client = MongoClient(uri, server_api=ServerApi('1'))
+client = MongoClient(uri, server_api=ServerApi('1'),connect=False)
 bot=client['arbitrage']
 admin=bot['admin']
 
@@ -35,7 +35,6 @@ def check_profit_loss(total_price_after_sell,initial_investment,transaction_brok
     min_profitable_price = initial_investment + apprx_brokerage
     profit_loss = float(total_price_after_sell) - float(min_profitable_price)
     profit_loss_per=(profit_loss/100)*initial_investment
-
     final_value=total_price_after_sell-apprx_brokerage
     return profit_loss_per,final_value
 
