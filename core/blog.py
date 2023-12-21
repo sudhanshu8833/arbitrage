@@ -6,17 +6,25 @@ from pprint import pprint
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 import json
+import os
+
 uri = "mongodb+srv://sudhanshus883:uWZLgUV61vMuWp8n@cluster0.sxyyewj.mongodb.net/?retryWrites=true&w=majority"
 client = MongoClient(uri, server_api=ServerApi('1'))
 bot=client['arbitrage']
 admin=bot['admin']
 
+script_dir = os.path.dirname(os.path.realpath(__file__))
+
+# Create the 'log' directory if it doesn't exist
+log_dir = os.path.join(script_dir, 'log/dev.log')
+os.makedirs(log_dir, exist_ok=True)
 logging.basicConfig(
-    filename='log/dev.log',
+    filename=log_dir+'/dev.log',
     level=logging.DEBUG,  # You can adjust the log level as needed
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
+
 errors=[]
 
 def check_if_float_zero(value):
@@ -122,12 +130,13 @@ def place_trade_orders(client,type, scrip1, scrip2, scrip3, initial_amount, scri
         
         s2_quantity = s1_quantity/float(scrip_prices[scrip2])
         price2=place_buy_order(scrip2, s2_quantity, float(scrip_prices[scrip2]))
-        
+
         s3_quantity = s2_quantity
         price3=place_sell_order(scrip3, s3_quantity, float(scrip_prices[scrip3]))
 
         return price1,price2,price3
-        
+
+
     elif type == 'BUY_SELL_SELL':
         s1_quantity = initial_amount/float(scrip_prices[scrip1])
         price1=place_buy_order(scrip1, s1_quantity, float(scrip_prices[scrip1]))

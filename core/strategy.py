@@ -6,6 +6,7 @@ from datetime import datetime
 from core.blog import *
 import json
 from pprint import pprint
+import os
 
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
@@ -18,11 +19,17 @@ screenshot=bot['screenshot']
 
 delisted=[]
 
+
+
+script_dir = os.path.dirname(os.path.realpath(__file__))
+log_dir = os.path.join(script_dir, 'log')
+os.makedirs(log_dir, exist_ok=True)
 logging.basicConfig(
-    filename='log/dev.log',
-    level=logging.DEBUG,  # You can adjust the log level as needed
+    filename=log_dir+'/dev.log',
+    level=logging.DEBUG,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
+
 logger = logging.getLogger(__name__)
 
 errors=[]
@@ -49,12 +56,14 @@ def main():
 
     symbols=[]
     base_currency=[]
-    with open("core/tokens.json",'r') as json_file:
+
+
+
+    with open(script_dir+"/tokens.json",'r') as json_file:
         symbols=json.load(json_file)['symbols']
 
     
     combinations=get_crypto_combinations(symbols,data['tradable_base_coins'])
-    
 
     initial_balance=binance_api.get_balance(client,data['tradable_base_coins'])
 
@@ -94,9 +103,9 @@ def main():
             try:
                 place_trade_orders(client,df["arbitrage type"].iloc[0],df['script1'].iloc[0],df['script2'].iloc[0],df['script3'].iloc[0],data['investment'],prices)
             except Exception:
-                if str(traceback.format_exc()) not in errors:
-                    logger.info(str(traceback.format_exc()))
-                    errors.append(str(traceback.format_exc()))
+                # if str(traceback.format_exc()) not in errors:
+                logger.info(str(traceback.format_exc()))
+                errors.append(str(traceback.format_exc()))
 
         final_balance=binance_api.get_balance(client,data['tradable_base_coins'])
 
@@ -120,11 +129,11 @@ def main():
             "script_price3":float(df['script_price3'].iloc[0]),
             "initial base account":float(df['initial base quantity'].iloc[0]),
             "final base quantity":float(df['final base quantity'].iloc[0]),
-            "profits":float(profits)
+            "profits":round(float(profits),2)
         }
 
         trades.insert_one(t)
-        df.to_csv("results.csv")
+        df['profit'].round(2)
         data_dict = df.to_dict(orient='records')
         screenshot.delete_many({})
         screenshot.insert_many(data_dict)
@@ -138,9 +147,9 @@ def run():
             print(f"checked {datetime.now()}")
             main()
         except Exception:
-            if str(str(traceback.format_exc())) not in errors:
-                logger.info(str(traceback.format_exc()))
-                errors.append(str(traceback.format_exc()))
+            # if str(str(traceback.format_exc())) not in errors:
+            logger.info(str(traceback.format_exc()))
+            errors.append(str(traceback.format_exc()))
 
 if __name__=="__main__":
     delisted=find_delisted_coins()

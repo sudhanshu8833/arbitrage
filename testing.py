@@ -67,3 +67,4 @@
 #     if sym['symbol'] not in delisted_coins:
 #         symbols.append(sym['symbol'])
 # print(symbols)
+# print("HELLO WORLD")
