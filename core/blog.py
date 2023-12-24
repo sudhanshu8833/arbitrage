@@ -31,10 +31,13 @@ def check_if_float_zero(value):
     return math.isclose(value, 0.0, abs_tol=1e-3)
 
 def check_profit_loss(total_price_after_sell,initial_investment,transaction_brokerage,minimum_profit):
+    print(total_price_after_sell,initial_investment,transaction_brokerage)
     apprx_brokerage = transaction_brokerage * (initial_investment/100) * 3
     min_profitable_price = initial_investment + apprx_brokerage
     profit_loss = float(total_price_after_sell) - float(min_profitable_price)
-    profit_loss_per=(profit_loss/100)*initial_investment
+
+    profit_loss_per=(profit_loss/initial_investment)*100
+    print(profit_loss,profit_loss_per)
     final_value=total_price_after_sell-apprx_brokerage
     return profit_loss_per,final_value
 

@@ -7,6 +7,7 @@ from core.blog import *
 import json
 from pprint import pprint
 import os
+import sys
 
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
@@ -29,7 +30,14 @@ logging.basicConfig(
     level=logging.DEBUG,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
+
 background={}
+
+if getattr(sys, 'frozen', False):
+
+    script_dir = os.path.dirname(sys.executable)
+    print(script_dir)
+
 with open(script_dir+"/background.json",'r') as json_file:
     background=json.load(json_file)
 
@@ -158,6 +166,7 @@ def run():
             main()
         # except Exception:
         #     # if str(str(traceback.format_exc())) not in errors:
+                
         #     logger.info(str(traceback.format_exc()))
         #     errors.append(str(traceback.format_exc()))
 

@@ -23,7 +23,7 @@ click-plugins==1.1.1
 click-repl==0.3.0
 constantly==23.10.4
 cron-descriptor==1.4.0
-cryptography==41.0.5
+cryptography==41.0.7
 cssselect==1.2.0
 dateparser==1.2.0
 distlib==0.3.6
@@ -39,7 +39,7 @@ fake-useragent==1.2.1
 filelock==3.10.2
 frozendict==2.3.10
 frozenlist==1.4.0
-greenlet==2.0.2
+# greenlet==2.0.2
 html5lib==1.1
 hyperlink==21.0.0
 ib-insync==0.9.86

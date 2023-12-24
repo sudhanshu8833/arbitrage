@@ -135,19 +135,6 @@ class App:
         
         self.admin=admin.find_one()
 
-        # self.label_API_KEY=tk.Label(self.tab1,text="API KEY")
-        # self.label_API_KEY.pack()
-
-        # self.entry_API_KEY=tk.Entry(self.tab1)
-        # self.entry_API_KEY.pack()
-        # self.entry_API_KEY.insert(0,self.admin.api_key)
-
-        # self.label_SECRET_KEY=tk.Label(self.tab1,text="SECRET KEY")
-        # self.label_SECRET_KEY.pack()
-
-        # self.entry_SECRET_KEY=tk.Entry(self.tab1)
-        # self.entry_SECRET_KEY.pack()
-        # self.entry_SECRET_KEY.insert(0,self.admin.secret_key)
 
         self.label_EXCHANGE=tk.Label(self.tab1,text="EXCHANGE")
         self.label_EXCHANGE.pack()
@@ -173,6 +160,9 @@ class App:
         self.entry_INVESTMENT=tk.Entry(self.tab1)
         self.entry_INVESTMENT.pack()
         self.entry_INVESTMENT.insert(0,self.admin['investment'])
+
+        # self.label_INVESTMENT.grid(column=0,row=0)
+        # self.entry_INVESTMENT.grid(column=1,row=0)
 
         ttk.Separator(self.tab1, orient="horizontal").pack(pady=10)
 
