@@ -31,13 +31,13 @@ def check_if_float_zero(value):
     return math.isclose(value, 0.0, abs_tol=1e-3)
 
 def check_profit_loss(total_price_after_sell,initial_investment,transaction_brokerage,minimum_profit):
-    print(total_price_after_sell,initial_investment,transaction_brokerage)
+    # print(total_price_after_sell,initial_investment,transaction_brokerage)
     apprx_brokerage = transaction_brokerage * (initial_investment/100) * 3
     min_profitable_price = initial_investment + apprx_brokerage
     profit_loss = float(total_price_after_sell) - float(min_profitable_price)
 
     profit_loss_per=(profit_loss/initial_investment)*100
-    print(profit_loss,profit_loss_per)
+    # print(profit_loss,profit_loss_per)
     final_value=total_price_after_sell-apprx_brokerage
     return profit_loss_per,final_value
 
@@ -128,13 +128,13 @@ def place_trade_orders(client,type, scrip1, scrip2, scrip3, initial_amount, scri
 
     if type == 'BUY_BUY_SELL':
         s1_quantity = initial_amount/float(scrip_prices[scrip1])
-        price1=place_buy_order(scrip1, s1_quantity, float(scrip_prices[scrip1]))
+        price1=place_buy_order(client,scrip1, s1_quantity)
         
         s2_quantity = s1_quantity/float(scrip_prices[scrip2])
-        price2=place_buy_order(scrip2, s2_quantity, float(scrip_prices[scrip2]))
+        price2=place_buy_order(client,scrip2, s2_quantity)
 
         s3_quantity = s2_quantity
-        price3=place_sell_order(scrip3, s3_quantity, float(scrip_prices[scrip3]))
+        price3=place_sell_order(client,scrip3, s3_quantity)
 
         return price1,price2,price3
 

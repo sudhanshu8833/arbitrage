@@ -18,6 +18,9 @@ class App:
         self.root=root
         self.root.title("ARBITRAGE BOT")
         self.root.state("zoomed")
+
+
+
         self.admin=admin.find_one()
         self.notebook=ttk.Notebook(root)
         self.notebook.pack(fill=tk.BOTH,expand=True)
@@ -25,6 +28,11 @@ class App:
         self.tab1=ttk.Frame(self.notebook)
         self.tab2=ttk.Frame(self.notebook)
         self.tab3=ttk.Frame(self.notebook)
+
+        self.tab1.columnconfigure(0, weight=1)
+        self.tab1.columnconfigure(1, weight=1)
+        self.tab1.columnconfigure(2, weight=1)
+        # self.tab1.columnconfigure(3, weight=1)
 
         self.notebook.add(self.tab1,text="Input Data")
         self.notebook.add(self.tab2,text="Present positions")
@@ -57,26 +65,31 @@ class App:
 
     def populate_treeview(self):
         # Query the database to fetch data from the Position table
-        positions = list(trades.find({}))
-        positions.reverse()
+        positions = list(trades.find().sort("time", -1).limit(50))
 
+        # positions.reverse()
+        # print(len(positions))
         # Update the existing list with the new positions
         existing_items = self.present_position.get_children()
         for i, position in enumerate(positions):
             values = (position['time'], position['base'], position['script1'], position['script_price1'], position['script2'], position['script_price2'], position['script3'], position['script_price3'],
                     position['initial base account'], position['final base quantity'], position['profits'])
 
+
             if i < len(existing_items):
                 # Update existing item
-                self.present_position.item(existing_items[i], values=values)
+                self.present_position.item(existing_items[i], values=values, tags=("even_row" if i % 2 == 0 else "odd_row"))
             else:
                 # Insert new item at the end of the list
-                self.present_position.insert("", "end", values=values)
+                self.present_position.insert("", "end", values=values, tags=("even_row" if i % 2 == 0 else "odd_row"))
 
 
 
     def tab2_fun(self):
         self.present_position=ttk.Treeview(self.tab2,columns=("Time","Base","script1","script_price1","script2","script_price2","script3","script_price3","initial quantity","final quantity","profits"),show="headings")
+        self.present_position.tag_configure("even_row", background="black")
+        self.present_position.tag_configure("odd_row", background="green")
+
         self.present_position.heading("Time",text="Time")
         self.present_position.heading("Base",text="Base")
         self.present_position.heading("script1",text="script1")
@@ -108,13 +121,16 @@ class App:
 
             if i < len(existing_items):
                 # Update existing item
-                self.snapshot.item(existing_items[i], values=values)
+                self.snapshot.item(existing_items[i], values=values, tags=("even_row" if i % 2 == 0 else "odd_row"))
             else:
                 # Insert new item at the end of the list
-                self.snapshot.insert("", "end", values=values)
+                self.snapshot.insert("", "end", values=values, tags=("even_row" if i % 2 == 0 else "odd_row"))
 
     def tab3_fun(self):
         self.snapshot=ttk.Treeview(self.tab3,columns=("Time","Base","script1","script_price1","script2","script_price2","script3","script_price3","initial quantity","final quantity","profits"),show="headings")
+        self.snapshot.tag_configure("even_row", background="black")
+        self.snapshot.tag_configure("odd_row", background="green")
+
         self.snapshot.heading("Time",text="Time")
         self.snapshot.heading("Base",text="Base")
         self.snapshot.heading("script1",text="script1")
@@ -135,66 +151,52 @@ class App:
         
         self.admin=admin.find_one()
 
-
         self.label_EXCHANGE=tk.Label(self.tab1,text="EXCHANGE")
-        self.label_EXCHANGE.pack()
-
         self.entry_EXCHANGE=tk.Entry(self.tab1)
-        self.entry_EXCHANGE.pack()
         self.entry_EXCHANGE.insert(0,self.admin['exchange'])
+        self.label_EXCHANGE.grid(column=1,row=0,padx=5,pady=5,sticky='W')
+        self.entry_EXCHANGE.grid(column=1,row=0,padx=5,pady=5,sticky='E')
 
-        ttk.Separator(self.tab1, orient="horizontal").pack(pady=10)
 
         self.label_BASE=tk.Label(self.tab1,text="BASE")
-        self.label_BASE.pack()
-
         self.entry_BASE=tk.Entry(self.tab1)
-        self.entry_BASE.pack()
         self.entry_BASE.insert(0,self.admin['tradable_base_coins'])
+        self.label_BASE.grid(column=1,row=1,padx=5,pady=5,sticky='W')
+        self.entry_BASE.grid(column=1,row=1,padx=5,pady=5,sticky='E')
 
-        ttk.Separator(self.tab1, orient="horizontal").pack(pady=10)
 
+        self.invest_by_per=tk.BooleanVar(value=self.admin['invest_by_per'])
         self.label_INVESTMENT=tk.Label(self.tab1,text="INVESTMENT % OF PORTFOLIO")
-        self.label_INVESTMENT.pack()
-
         self.entry_INVESTMENT=tk.Entry(self.tab1)
-        self.entry_INVESTMENT.pack()
         self.entry_INVESTMENT.insert(0,self.admin['investment'])
+        self.check_button2 = tk.Checkbutton(self.tab1, variable=self.invest_by_per)
+        self.label_INVESTMENT.grid(column=1,row=2,padx=5,pady=5,sticky='W')
+        self.entry_INVESTMENT.grid(column=1,row=2,padx=5,pady=5,sticky='E')
+        self.check_button2.grid(column=2,row=2,padx=5,pady=5,sticky='W')
 
-        # self.label_INVESTMENT.grid(column=0,row=0)
-        # self.entry_INVESTMENT.grid(column=1,row=0)
-
-        ttk.Separator(self.tab1, orient="horizontal").pack(pady=10)
 
         self.label_min_profit=tk.Label(self.tab1,text="MINIMUM PROFIT")
-        self.label_min_profit.pack()
-
-
         self.entry_min_profit=tk.Entry(self.tab1)
-        self.entry_min_profit.pack()
         self.entry_min_profit.insert(0,self.admin['minimum_profit'])
+        self.label_min_profit.grid(column=1,row=3,padx=5,pady=5,sticky='W')
+        self.entry_min_profit.grid(column=1,row=3,padx=5,pady=5,sticky='E')
 
-        ttk.Separator(self.tab1, orient="horizontal").pack(pady=10)
-
-
-        # self.check_button1 = tk.Checkbutton(self.tab1)
-        # self.check_button1.pack()
-        # self.check_button1.insert(0,self.admin['paper_trading'])
+        self.paper=tk.Label(self.tab1,text="PAPER TRADING")
         self.paper_trading_var = tk.BooleanVar(value=self.admin['paper_trading'])
-        self.check_button1 = tk.Checkbutton(self.tab1, text="Paper Trading", variable=self.paper_trading_var)
-        self.check_button1.pack()
+        self.check_button1 = tk.Checkbutton(self.tab1, variable=self.paper_trading_var)
+        self.paper.grid(column=1,row=4,padx=5,pady=5,sticky='w')
+        self.check_button1.grid(column=2,row=4,pady=5,sticky='w')
 
-        ttk.Separator(self.tab1, orient="horizontal").pack(pady=10)
+
 
         self.submit=tk.Button(self.tab1,text="Submit",command=self.get_form_data)
-        self.submit.pack()
+        self.submit.grid(column=1,row=5,padx=5,pady=40,sticky='N')
 
-        ttk.Separator(self.tab1, orient="horizontal").pack(pady=10)
 
         self.start=tk.Button(self.tab1,text="Start Strategy",command=self.start_strategy)
-        self.start.pack()
         self.dot = tk.Label(self.tab1, text="●", font=("Helvetica", 36))
-        self.dot.pack()
+        self.start.grid(column=1,row=6,padx=5,pady=20,sticky='N')
+        self.dot.grid(column=1,row=7,padx=5,pady=20,sticky='N')
 
 
 
@@ -212,6 +214,7 @@ class App:
         investment = self.entry_INVESTMENT.get()
         min_profit = self.entry_min_profit.get()
         paper = self.paper_trading_var.get()
+        invest = self.invest_by_per.get()
 
         self.admin=admin.find_one()
         self.admin['exchange']=exchange
@@ -219,10 +222,9 @@ class App:
         self.admin['investment']=float(investment)
         self.admin['minimum_profit']=float(min_profit)
         self.admin['paper_trading']=paper
-        print(self.admin)
+        self.admin['invest_by_per']=invest
 
         admin.update_one({},{'$set':self.admin})
-
         messagebox.showinfo("Information Updated", "The information has been updated")
 
 

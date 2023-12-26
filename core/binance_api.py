@@ -24,6 +24,8 @@ def get_balance(client,base):
     for wallet in account_info['balances']:
         if wallet["asset"]==base:
             return float(wallet['free'])
+
+    
     return 0
 
 def ltp_price(client):

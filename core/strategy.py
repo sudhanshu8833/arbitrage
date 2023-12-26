@@ -36,7 +36,7 @@ background={}
 if getattr(sys, 'frozen', False):
 
     script_dir = os.path.dirname(sys.executable)
-    print(script_dir)
+    # print(script_dir)
 
 with open(script_dir+"/background.json",'r') as json_file:
     background=json.load(json_file)
@@ -69,7 +69,7 @@ def main():
     data=admin.find_one()
     client=binance_api.login(data['api_key'],data['secret_key'])
     prices=binance_api.ltp_price(client)
-
+    
     symbols=[]
 
     with open(script_dir+"/tokens.json",'r') as json_file:
@@ -83,6 +83,12 @@ def main():
 
     initial_balance=binance_api.get_balance(client,data['tradable_base_coins'])
 
+    if(data['paper_trading']==True):
+        initial_balance=100
+    if(data['invest_by_per']==True):
+        data['investment']= (float(data['investment'])/float(100))*initial_balance
+
+    # print(len(combinations))
     results=[]
     for comb in combinations:
         base = comb['base']
@@ -148,27 +154,28 @@ def main():
             "final base quantity":float(df['final base quantity'].iloc[0]),
             "profits":round(float(profits),2)
         }
-
         trades.insert_one(t)
-    
+
     df['profit']=df['profit'].round(2)
     data_dict = df.to_dict(orient='records')
     screenshot.delete_many({})
-    screenshot.insert_many(data_dict)
+    if len(df)!=0:
+        screenshot.insert_many(data_dict)
+
 
 def run():
     global delisted
     delisted=find_delisted_coins()
     while True:
 
-        # try:
+        try:
             print(f"checked {datetime.now()}")
             main()
-        # except Exception:
-        #     # if str(str(traceback.format_exc())) not in errors:
-                
-        #     logger.info(str(traceback.format_exc()))
-        #     errors.append(str(traceback.format_exc()))
+        except Exception:
+
+            print(str(traceback.format_exc()))
+            logger.info(str(traceback.format_exc()))
+            errors.append(str(traceback.format_exc()))
 
 if __name__=="__main__":
     delisted=find_delisted_coins()

@@ -1,11 +1,11 @@
-from pprint import pprint
+# from pprint import pprint
 
-from pymongo.mongo_client import MongoClient
-from pymongo.server_api import ServerApi
-uri = "mongodb+srv://sudhanshus883:uWZLgUV61vMuWp8n@cluster0.sxyyewj.mongodb.net/?retryWrites=true&w=majority"
-client = MongoClient(uri, server_api=ServerApi('1'))
-bot = client['bot']
-admin = bot['admin']
+# from pymongo.mongo_client import MongoClient
+# from pymongo.server_api import ServerApi
+# uri = "mongodb+srv://sudhanshus883:uWZLgUV61vMuWp8n@cluster0.sxyyewj.mongodb.net/?retryWrites=true&w=majority"
+# client = MongoClient(uri, server_api=ServerApi('1'))
+# bot = client['bot']
+# admin = bot['admin']
 
 
 # symbols=['ETHBTC', 'LTCBTC', 'BNBBTC', 'NEOBTC', 'QTUMETH', 'EOSETH', 'SNTETH', 'BNTETH', 'GASBTC', 'BNBETH', 'BTCUSDT', 'ETHUSDT', 'LRCBTC', 'LRCETH', 'QTUMBTC', 'ZRXBTC', 'KNCBTC', 'FUNETH', 'NEOETH', 'IOTABTC', 'IOTAETH', 'LINKBTC', 'LINKETH', 'XVGETH', 'MTLBTC', 'EOSBTC', 'SNTBTC', 'ETCETH', 'ETCBTC', 'ZECBTC', 'ZECETH', 'BNTBTC', 'ASTBTC', 'DASHBTC', 'DASHETH', 'OAXBTC', 'REQBTC', 'VIBBTC', 'TRXBTC', 'TRXETH', 'POWRBTC', 'POWRETH', 'XRPBTC', 'XRPETH', 'ENJBTC', 'ENJETH', 'STORJBTC', 'BNBUSDT', 'KMDBTC', 'NULSBTC', 'XMRBTC', 'XMRETH', 'AMBBTC', 'BATBTC', 'NEOUSDT', 'LSKBTC', 'LSKETH', 'MANABTC', 'MANAETH', 'ADXBTC', 'ADXETH', 'ADABTC', 'ADAETH', 'XLMBTC', 'XLMETH', 'XLMBNB', 'LTCETH', 'LTCUSDT', 'LTCBNB', 'WAVESBTC', 'WAVESETH', 'ICXBTC', 'ELFBTC', 'ELFETH', 'RLCBTC', 'RLCETH', 'PIVXBTC', 'IOSTBTC', 'IOSTETH', 'STEEMBTC', 'STEEMETH', 'BLZBTC', 'ZILBTC', 'ZILETH', 'ONTBTC', 'QTUMUSDT', 'WANBTC', 'WANETH', 'SYSBTC', 'ADAUSDT', 'ADABNB', 'LOOMBTC', 'XRPUSDT', 'BTCTUSD', 'ETHTUSD']
@@ -43,10 +43,17 @@ admin = bot['admin']
 # trades.insert_one(d)
 
 # Replace YOUR_API_KEY and YOUR_API_SECRET with your actual Binance API key and secret
-# api_key = 'GUf7tyd95mZMW7xXhKSuXXUhvenGaFZURNrrYFmecqZfFKGuzmYO9dRoPPR1xHTh'
-# api_secret = 'FGTiA20a37iEQzTgpv8pQnI4QIeNVlx6EEq5Dfu5rHB60tZVHNB1US8bc4Zu4atw'
+from binance.client import Client
+api_key = 'GUf7tyd95mZMW7xXhKSuXXUhvenGaFZURNrrYFmecqZfFKGuzmYO9dRoPPR1xHTh'
+api_secret = 'FGTiA20a37iEQzTgpv8pQnI4QIeNVlx6EEq5Dfu5rHB60tZVHNB1US8bc4Zu4atw'
 
-# client = Client(api_key, api_secret)
+client = Client(api_key, api_secret)
+
+
+order_response=client.create_order(symbol="BTCUSDT",
+                    side="BUY",
+                    type="MARKET",
+                    quantity=.001)
 
 # # Get account information
 # data = client.get_all_tickers()
