@@ -1,0 +1,9642 @@
+{
+  "ETHBTC": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "LTCBTC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "BNBBTC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "NEOBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "QTUMETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "EOSETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SNTETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BNTETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BCCBTC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "GASBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BNBETH": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "BTCUSDT": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "ETHUSDT": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "HSRBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "OAXETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DNTETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "MCOETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ICNETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "MCOBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "WTCBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "WTCETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LRCBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "LRCETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "QTUMBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "YOYOBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "OMGBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "OMGETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ZRXBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ZRXETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "STRATBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "STRATETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SNGLSBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SNGLSETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BQXBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BQXETH": {
+    "minq": "10.00000000",
+    "round": 0
+  },
+  "KNCBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "KNCETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "FUNBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "FUNETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SNMBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SNMETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NEOETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "IOTABTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "IOTAETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "LINKBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LINKETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "XVGBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "XVGETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SALTBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SALTETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "MDABTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "MDAETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "MTLBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MTLETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SUBBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SUBETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "EOSBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SNTBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ETCETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ETCBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "MTHBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "MTHETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ENGBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ENGETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DNTBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ZECBTC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "ZECETH": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "BNTBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ASTBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ASTETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DASHBTC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "DASHETH": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "OAXBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ICNBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BTGBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BTGETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "EVXBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "EVXETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "REQBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "REQETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "VIBBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "VIBETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "HSRETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "TRXBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "TRXETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "POWRBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "POWRETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ARKBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ARKETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "YOYOETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "XRPBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "XRPETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "MODBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "MODETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ENJBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ENJETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "STORJBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "STORJETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BNBUSDT": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "VENBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "YOYOBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "POWRBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "VENBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "VENETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "KMDBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "KMDETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NULSBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "RCNBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "RCNETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "RCNBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NULSBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NULSETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "RDNBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "RDNETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "RDNBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "XMRBTC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "XMRETH": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "DLTBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "WTCBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "DLTBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DLTETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "AMBBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "AMBETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "AMBBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BCCETH": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "BCCUSDT": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "BCCBNB": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "BATBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BATETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BATBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BCPTBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BCPTETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BCPTBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ARNBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ARNETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "GVTBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "GVTETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "CDTBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CDTETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "GXSBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "GXSETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NEOUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "NEOBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "POEBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "POEETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "QSPBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "QSPETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "QSPBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BTSBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BTSETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BTSBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "XZCBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "XZCETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "XZCBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LSKBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "LSKETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "LSKBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "TNTBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "TNTETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "FUELBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "FUELETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "MANABTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "MANAETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BCDBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BCDETH": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "DGDBTC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "DGDETH": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "IOTABNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ADXBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ADXETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ADXBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ADABTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ADAETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "PPTBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "PPTETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "CMTBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CMTETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CMTBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "XLMBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "XLMETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "XLMBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CNDBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CNDETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CNDBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "LENDBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "LENDETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "WABIBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "WABIETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "WABIBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "LTCETH": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "LTCUSDT": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "LTCBNB": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "TNBBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "TNBETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "WAVESBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "WAVESETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "WAVESBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "GTOBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "GTOETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "GTOBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ICXBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ICXETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ICXBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "OSTBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "OSTETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "OSTBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ELFBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ELFETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "AIONBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "AIONETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "AIONBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NEBLBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "NEBLBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BRDBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BRDETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BRDBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MCOBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "EDOBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "EDOETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "WINGSBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "WINGSETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NAVBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NAVETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NAVBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "LUNBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LUNETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "TRIGBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "TRIGETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "TRIGBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "APPCBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "APPCETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "APPCBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "VIBEBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "VIBEETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "RLCBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "RLCETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "RLCBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "INSBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "INSETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "PIVXBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "PIVXBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "IOSTBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "IOSTETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CHATBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CHATETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "STEEMBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "STEEMETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "STEEMBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "NANOBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "NANOETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "NANOBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "VIABTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "VIAETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "VIABNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BLZBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BLZETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BLZBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "AEBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "AEETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "AEBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "RPXBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "RPXETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "RPXBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NCASHBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NCASHETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NCASHBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "POABTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "POAETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "POABNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ZILBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ZILETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ZILBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ONTBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ONTETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ONTBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "STORMBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "STORMETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "STORMBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "QTUMBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "QTUMUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "XEMBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "XEMETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "XEMBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "WANBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "WANETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "WANBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "WPRBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "WPRETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "QLCBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "QLCETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SYSBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SYSETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SYSBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "QLCBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "GRSBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "GRSETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ADAUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ADABNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "CLOAKBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "CLOAKETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "GNTBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "GNTETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "GNTBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "LOOMBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "LOOMETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "LOOMBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "XRPUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BCNBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BCNETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BCNBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "REPBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "REPBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BTCTUSD": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "TUSDBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ETHTUSD": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "TUSDETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "TUSDBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ZENBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ZENETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ZENBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SKYBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SKYETH": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "SKYBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "EOSUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "EOSBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "CVCBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CVCETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CVCBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "THETABTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "THETAETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "THETABNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "XRPBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "TUSDUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "IOTAUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "XLMUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "IOTXBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "IOTXETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "QKCBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "QKCETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "AGIBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "AGIETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "AGIBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NXSBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NXSETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "NXSBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ENJBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "DATABTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DATAETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ONTUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "TRXBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "TRXUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ETCUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ETCBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ICXUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SCBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SCETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NPXSBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NPXSETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "VENUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "KEYBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "KEYETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NASBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NASETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NASBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MFTBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "MFTETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "MFTBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DENTBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DENTETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ARDRBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ARDRETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ARDRBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NULSUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "HOTBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "HOTETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "VETBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "VETETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "VETUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "VETBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DOCKBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DOCKETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "POLYBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "POLYBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "PHXBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "PHXETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "PHXBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "HCBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "HCETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "GOBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "GOBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "PAXBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "PAXBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "PAXUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "PAXETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "RVNBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DCRBTC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "DCRBNB": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "USDCBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MITHBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "MITHBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BCHABCBTC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "BCHSVBTC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "BCHABCUSDT": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "BCHSVUSDT": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "BNBPAX": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "BTCPAX": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "ETHPAX": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "XRPPAX": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "EOSPAX": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "XLMPAX": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "RENBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "RENBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BNBTUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "XRPTUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "EOSTUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "XLMTUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BNBUSDC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "BTCUSDC": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "ETHUSDC": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "XRPUSDC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "EOSUSDC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "XLMUSDC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "USDCUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ADATUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "TRXTUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "NEOTUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "TRXXRP": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "XZCXRP": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "PAXTUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "USDCTUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "USDCPAX": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LINKUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LINKTUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LINKPAX": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LINKUSDC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "WAVESUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "WAVESTUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "WAVESPAX": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "WAVESUSDC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BCHABCTUSD": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "BCHABCPAX": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "BCHABCUSDC": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "BCHSVTUSD": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "BCHSVPAX": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "BCHSVUSDC": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "LTCTUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "LTCPAX": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "LTCUSDC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "TRXPAX": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "TRXUSDC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BTTBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BTTBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BTTUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BNBUSDS": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BTCUSDS": {
+    "minq": "0.00000100",
+    "round": 6
+  },
+  "USDSUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "USDSPAX": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "USDSTUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "USDSUSDC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BTTPAX": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BTTTUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BTTUSDC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ONGBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ONGBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ONGUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "HOTBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "HOTUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ZILUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ZRXBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ZRXUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "FETBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "FETBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "FETUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BATUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "XMRBNB": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "XMRUSDT": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "ZECBNB": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "ZECUSDT": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "ZECPAX": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "ZECTUSD": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "ZECUSDC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "IOSTUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CELRBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CELRBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CELRUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ADAPAX": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ADAUSDC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "NEOPAX": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "NEOUSDC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "DASHBNB": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "DASHUSDT": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "NANOUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "OMGBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "OMGUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "THETAUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ENJUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MITHUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MATICBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MATICBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MATICUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ATOMBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ATOMBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ATOMUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ATOMUSDC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ATOMPAX": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "ATOMTUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "ETCUSDC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "ETCPAX": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "ETCTUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "BATUSDC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BATPAX": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BATTUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "PHBBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "PHBBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "PHBUSDC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "PHBTUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "PHBPAX": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "TFUELBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "TFUELBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "TFUELUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "TFUELUSDC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "TFUELTUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "TFUELPAX": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ONEBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ONEBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ONEUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ONETUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ONEPAX": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ONEUSDC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "FTMBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "FTMBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "FTMUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "FTMTUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "FTMPAX": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "FTMUSDC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BTCBBTC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "BCPTTUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BCPTPAX": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BCPTUSDC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ALGOBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ALGOBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ALGOUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ALGOTUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ALGOPAX": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ALGOUSDC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "USDSBUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "USDSBUSDS": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "GTOUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "GTOPAX": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "GTOTUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "GTOUSDC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ERDBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ERDBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ERDUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ERDPAX": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ERDUSDC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DOGEBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DOGEBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DOGEUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DOGEPAX": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DOGEUSDC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DUSKBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "DUSKBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DUSKUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DUSKUSDC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "DUSKPAX": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BGBPUSDC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ANKRBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ANKRBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ANKRUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ANKRTUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ANKRPAX": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ANKRUSDC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ONTPAX": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ONTUSDC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "WINBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "WINBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "WINUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "WINUSDC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "COSBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "COSBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "COSUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "TUSDBTUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "NPXSUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NPXSUSDC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "COCOSBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "COCOSBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "COCOSUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "MTLUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "TOMOBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "TOMOBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "TOMOUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "TOMOUSDC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "PERLBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "PERLBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "PERLUSDC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "PERLUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "DENTUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "MFTUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "KEYUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "STORMUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DOCKUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "WANUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "FUNUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CVCUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BTTTRX": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "WINTRX": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "CHZBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CHZBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CHZUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BANDBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BANDBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BANDUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BNBBUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "BTCBUSD": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "BUSDUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BEAMBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BEAMBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BEAMUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "XTZBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "XTZBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "XTZUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "RENUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "RVNUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "HCUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "HBARBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "HBARBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "HBARUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NKNBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NKNBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NKNUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "XRPBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ETHBUSD": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "BCHABCBUSD": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "LTCBUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "LINKBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ETCBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "STXBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "STXBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "STXUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "KAVABNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "KAVABTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "KAVAUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BUSDNGN": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BNBNGN": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "BTCNGN": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "ARPABNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ARPABTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ARPAUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "TRXBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "EOSBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "IOTXUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "RLCUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MCOUSDT": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "XLMBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ADABUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "CTXCBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CTXCBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CTXCUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BCHBNB": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "BCHBTC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "BCHUSDT": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "BCHUSDC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "BCHTUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "BCHPAX": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "BCHBUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "BTCRUB": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "ETHRUB": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "XRPRUB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BNBRUB": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "TROYBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "TROYBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "TROYUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BUSDRUB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "QTUMBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "VETBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "VITEBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "VITEBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "VITEUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "FTTBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "FTTBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "FTTUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BTCTRY": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "BNBTRY": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "BUSDTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ETHTRY": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "XRPTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "USDTTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "USDTRUB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BTCEUR": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "ETHEUR": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "BNBEUR": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "XRPEUR": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "EURBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "EURUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "OGNBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "OGNBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "OGNUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DREPBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DREPBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DREPUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BULLUSDT": {
+    "minq": "0.00000100",
+    "round": 6
+  },
+  "BULLBUSD": {
+    "minq": "0.00000100",
+    "round": 6
+  },
+  "BEARUSDT": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "BEARBUSD": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "ETHBULLUSDT": {
+    "minq": "0.00000100",
+    "round": 6
+  },
+  "ETHBULLBUSD": {
+    "minq": "0.00000100",
+    "round": 6
+  },
+  "ETHBEARUSDT": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "ETHBEARBUSD": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "TCTBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "TCTBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "TCTUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "WRXBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "WRXBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "WRXUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ICXBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BTSUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BTSBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "LSKUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BNTUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BNTBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "LTOBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "LTOBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "LTOUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ATOMBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "DASHBUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "NEOBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "WAVESBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "XTZBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "EOSBULLUSDT": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "EOSBULLBUSD": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "EOSBEARUSDT": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "EOSBEARBUSD": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "XRPBULLUSDT": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "XRPBULLBUSD": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "XRPBEARUSDT": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "XRPBEARBUSD": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "BATBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ENJBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "NANOBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ONTBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "RVNBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "STRATBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "STRATBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "STRATUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "AIONBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "AIONUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "MBLBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "MBLBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "MBLUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "COTIBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "COTIBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "COTIUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ALGOBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BTTBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "TOMOBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "XMRBUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "ZECBUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "BNBBULLUSDT": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "BNBBULLBUSD": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "BNBBEARUSDT": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "BNBBEARBUSD": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "STPTBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "STPTBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "STPTUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BTCZAR": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "ETHZAR": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "BNBZAR": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "USDTZAR": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BUSDZAR": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BTCBKRW": {
+    "minq": "0.00000100",
+    "round": 6
+  },
+  "ETHBKRW": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "BNBBKRW": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "WTCUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DATABUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "DATAUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "XZCUSDT": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "SOLBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SOLBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SOLUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SOLBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BTCIDRT": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "BNBIDRT": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "USDTIDRT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BUSDIDRT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "CTSIBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CTSIUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CTSIBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CTSIBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "HIVEBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "HIVEBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "HIVEUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CHRBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CHRBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CHRUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BTCUPUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BTCDOWNUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "GXSUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ARDRUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ERDBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "LENDUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "HBARBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "MATICBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "WRXBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ZILBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MDTBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "MDTBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "MDTUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "STMXBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "STMXETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "STMXUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "KNCBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "KNCUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "REPBUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "REPUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LRCBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "LRCUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "IQBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "IQBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "PNTBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "PNTUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BTCGBP": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "ETHGBP": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "XRPGBP": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BNBGBP": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "GBPBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "DGBBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DGBBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BTCUAH": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "USDTUAH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "COMPBTC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "COMPBNB": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "COMPBUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "COMPUSDT": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "BTCBIDR": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "ETHBIDR": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "BNBBIDR": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "BUSDBIDR": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "USDTBIDR": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BKRWUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BKRWBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SCUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ZENUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SXPBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SXPBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SXPBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SNXBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SNXBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SNXBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SNXUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ETHUPUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ETHDOWNUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ADAUPUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ADADOWNUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LINKUPUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LINKDOWNUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "VTHOBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "VTHOBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "VTHOUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DCRBUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "DGBUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "GBPUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "STORJBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SXPUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "IRISBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "IRISBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "IRISBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MKRBNB": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "MKRBTC": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "MKRUSDT": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "MKRBUSD": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "DAIBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "DAIBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DAIUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "DAIBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "RUNEBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "RUNEBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "RUNEBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MANABUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DOGEBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "LENDBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ZRXBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DCRUSDT": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "STORJUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "XRPBKRW": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ADABKRW": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BTCAUD": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "ETHAUD": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "AUDBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "FIOBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "FIOBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "FIOBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BNBUPUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BNBDOWNUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "XTZUPUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "XTZDOWNUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "AVABNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "AVABTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "AVABUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "USDTBKRW": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BUSDBKRW": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "IOTABUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "MANAUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "XRPAUD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BNBAUD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "AUDUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BALBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BALBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BALBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "YFIBNB": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "YFIBTC": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "YFIBUSD": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "YFIUSDT": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "BLZBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "KMDBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BALUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BLZUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "IRISUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "KMDUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BTCDAI": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "ETHDAI": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "BNBDAI": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "USDTDAI": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BUSDDAI": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "JSTBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "JSTBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "JSTBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "JSTUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SRMBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SRMBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SRMBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SRMUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ANTBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ANTBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ANTBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ANTUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "CRVBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "CRVBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "CRVBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "CRVUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SANDBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SANDBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SANDUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SANDBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "OCEANBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "OCEANBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "OCEANBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "OCEANUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NMRBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "NMRBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "NMRUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "DOTBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "DOTBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "DOTBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "DOTUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LUNABNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LUNABTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LUNABUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LUNAUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "IDEXBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "IDEXBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "RSRBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "RSRBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "RSRBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "RSRUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "PAXGBNB": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "PAXGBTC": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "PAXGBUSD": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "PAXGUSDT": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "WNXMBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "WNXMBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "WNXMBUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "WNXMUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "TRBBNB": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "TRBBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "TRBBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "TRBUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ETHNGN": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "DOTBIDR": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LINKAUD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SXPAUD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BZRXBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BZRXBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BZRXBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BZRXUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "WBTCBTC": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "WBTCETH": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "SUSHIBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SUSHIBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SUSHIBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SUSHIUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "YFIIBNB": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "YFIIBTC": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "YFIIBUSD": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "YFIIUSDT": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "KSMBNB": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "KSMBTC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "KSMBUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "KSMUSDT": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "EGLDBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "EGLDBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "EGLDBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "EGLDUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "DIABNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "DIABTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "DIABUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "DIAUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "RUNEUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "FIOUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "UMABTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "UMAUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "EOSUPUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "EOSDOWNUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "TRXUPUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "TRXDOWNUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "XRPUPUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "XRPDOWNUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "DOTUPUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "DOTDOWNUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SRMBIDR": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "ONEBIDR": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "LINKTRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "USDTNGN": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BELBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BELBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BELBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BELUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "WINGBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "WINGBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SWRVBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SWRVBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "WINGBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "WINGUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LTCUPUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LTCDOWNUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LENDBKRW": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SXPEUR": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "CREAMBNB": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "CREAMBUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "UNIBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "UNIBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "UNIBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "UNIUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "NBSBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NBSUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "OXTBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "OXTUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SUNBTC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "SUNUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "AVAXBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "AVAXBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "AVAXBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "AVAXUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "HNTBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "HNTUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BAKEBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BURGERBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SXPBIDR": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "LINKBKRW": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "FLMBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "FLMBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "FLMBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "FLMUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SCRTBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SCRTETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CAKEBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "CAKEBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SPARTABNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "UNIUPUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "UNIDOWNUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ORNBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ORNUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "TRXNGN": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SXPTRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "UTKBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "UTKUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "XVSBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "XVSBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "XVSBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "XVSUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ALPHABNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ALPHABTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ALPHABUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ALPHAUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "VIDTBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "VIDTBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "AAVEBNB": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "BTCBRL": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "USDTBRL": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "AAVEBTC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "AAVEETH": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "AAVEBUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "AAVEUSDT": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "AAVEBKRW": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "NEARBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "NEARBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "NEARBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "NEARUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SXPUPUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SXPDOWNUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "DOTBKRW": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SXPGBP": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "FILBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "FILBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "FILBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "FILUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "FILUPUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "FILDOWNUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "YFIUPUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "YFIDOWNUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "INJBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "INJBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "INJBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "INJUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "AERGOBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "AERGOBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "LINKEUR": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ONEBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "EASYETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "AUDIOBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "AUDIOBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "AUDIOUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "CTKBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "CTKBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "CTKBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "CTKUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BCHUPUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BCHDOWNUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BOTBTC": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "BOTBUSD": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "ETHBRL": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "DOTEUR": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "AKROBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "AKROUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "KP3RBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "KP3RBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "AXSBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "AXSBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "AXSBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "AXSUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "HARDBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "HARDBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "HARDBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "HARDUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BNBBRL": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "LTCEUR": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "RENBTCBTC": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "RENBTCETH": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "DNTBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DNTUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SLPETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ADAEUR": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "LTCNGN": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "CVPETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CVPBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "STRAXBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "STRAXETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "STRAXBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "STRAXUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "FORBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "FORBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "UNFIBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "UNFIBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "UNFIBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "UNFIUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "FRONTETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "FRONTBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BCHABUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "ROSEBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ROSEBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ROSEUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "AVAXTRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BUSDBRL": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "AVAUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SYSBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "XEMUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "HEGICETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "HEGICBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "AAVEUPUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "AAVEDOWNUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "PROMBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "PROMBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "XRPBRL": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "XRPNGN": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SKLBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SKLBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SKLUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BCHEUR": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "YFIEUR": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "ZILBIDR": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SUSDBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SUSDETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SUSDUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "COVERETH": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "COVERBUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "GLMBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "GLMETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "GHSTETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "GHSTBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SUSHIUPUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SUSHIDOWNUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "XLMUPUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "XLMDOWNUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LINKBRL": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LINKNGN": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "LTCRUB": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "TRXTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "XLMEUR": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DFETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DFBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "GRTBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "GRTETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "GRTUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "JUVBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "JUVBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "JUVUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "PSGBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "PSGBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "PSGUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BUSDBVND": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "USDTBVND": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "1INCHBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "1INCHUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "REEFBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "REEFUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "OGBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "OGUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ATMBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ATMUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ASRBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ASRUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "CELOBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "CELOUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "RIFBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "RIFUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CHZTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "XLMTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "LINKGBP": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "GRTEUR": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BTCSTBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BTCSTBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BTCSTUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "TRUBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "TRUBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "TRUUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DEXEETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "DEXEBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "EOSEUR": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "LTCBRL": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "USDCBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "TUSDBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "PAXBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "CKBBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CKBBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CKBUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "TWTBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "TWTBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "TWTUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "FIROBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "FIROETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "FIROUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BETHETH": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "DOGEEUR": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DOGETRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DOGEAUD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DOGEBRL": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DOTNGN": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "PROSETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "LITBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "LITBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "LITUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BTCVAI": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "BUSDVAI": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SFPBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SFPBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SFPUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DOGEGBP": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DOTTRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "FXSBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "FXSBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "DODOBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "DODOBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "DODOUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "FRONTBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "EASYBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "CAKEBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "CAKEUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BAKEBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "UFTETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "UFTBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "1INCHBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BANDBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "GRTBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "IOSTBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "OMGBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "REEFBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ACMBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ACMBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ACMUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "AUCTIONBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "AUCTIONBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "PHABTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "PHABUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DOTGBP": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ADATRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ADABRL": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ADAGBP": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "TVKBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "TVKBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BADGERBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BADGERBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BADGERUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "FISBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "FISBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "FISUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DOTBRL": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ADAAUD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "HOTTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "EGLDEUR": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "OMBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "OMBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "OMUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "PONDBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "PONDBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "PONDUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "DEGOBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "DEGOBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "DEGOUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "AVAXEUR": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BTTTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CHZBRL": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "UNIEUR": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ALICEBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ALICEBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ALICEUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "CHZBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CHZEUR": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CHZGBP": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BIFIBNB": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "BIFIBUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "LINABTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "LINABUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LINAUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ADARUB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ENJBRL": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ENJEUR": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MATICEUR": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "NEOTRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "PERPBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "PERPBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "PERPUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "RAMPBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "RAMPBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "RAMPUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SUPERBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SUPERBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SUPERUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CFXBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CFXBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CFXUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ENJGBP": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "EOSTRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "LTCGBP": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "LUNAEUR": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "RVNTRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "THETAEUR": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "XVGBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "EPSBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "EPSBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "EPSUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "AUTOBTC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "AUTOBUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "AUTOUSDT": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "TKOBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "TKOBIDR": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "TKOBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "TKOUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "PUNDIXETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "PUNDIXUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BTTBRL": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BTTEUR": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "HOTEUR": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "WINEUR": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "TLMBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "TLMBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "TLMUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "1INCHUPUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "1INCHDOWNUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BTGBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BTGUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "HOTBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BNBUAH": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "ONTTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "VETEUR": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "VETGBP": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "WINBRL": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "MIRBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MIRBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MIRUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BARBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BARBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BARUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "FORTHBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "FORTHBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "FORTHUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "CAKEGBP": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "DOGERUB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "HOTBRL": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "WRXEUR": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "EZBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "EZETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BAKEUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BURGERBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BURGERUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SLPBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SLPUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "TRXAUD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "TRXEUR": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "VETTRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SHIBUSDT": {
+    "minq": "1.00",
+    "round": 0
+  },
+  "SHIBBUSD": {
+    "minq": "1.00",
+    "round": 0
+  },
+  "ICPBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ICPBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ICPBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ICPUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SHIBEUR": {
+    "minq": "1.00",
+    "round": 0
+  },
+  "SHIBRUB": {
+    "minq": "1.00",
+    "round": 0
+  },
+  "ETCEUR": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ETCBRL": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "DOGEBIDR": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ARBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ARBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ARBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ARUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "POLSBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "POLSBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "POLSBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "POLSUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MDXBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MDXBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MDXBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MDXUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MASKBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MASKBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MASKUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "LPTBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LPTBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LPTBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LPTUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ETHUAH": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "MATICBRL": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SOLEUR": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SHIBBRL": {
+    "minq": "1.00",
+    "round": 0
+  },
+  "AGIXBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ICPEUR": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "MATICGBP": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SHIBTRY": {
+    "minq": "1.00",
+    "round": 0
+  },
+  "MATICBIDR": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MATICRUB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "NUBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NUBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NUBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NUUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "XVGUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "RLCBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "CELRBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ATMBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ZENBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "FTMBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "THETABUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "WINBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "KAVABUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "XEMBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ATABTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ATABNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ATABUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ATAUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "GTCBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "GTCBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "GTCBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "GTCUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "TORNBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "TORNBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "TORNBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "TORNUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "MATICTRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ETCGBP": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SOLGBP": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BAKEBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "COTIBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "KEEPBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "KEEPBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "KEEPBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "KEEPUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SOLTRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "RUNEGBP": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SOLBRL": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SCBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CHRBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "STMXBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "HNTBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "FTTBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "DOCKBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ADABIDR": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ERNBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ERNBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ERNUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "KLAYBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "KLAYBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "KLAYBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "KLAYUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "RUNEEUR": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MATICAUD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "DOTRUB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "UTKBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "IOTXBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "PHAUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SOLRUB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "RUNEAUD": {
+    "minq": "0.00000100",
+    "round": 6
+  },
+  "BUSDUAH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BONDBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BONDBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BONDBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BONDUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "MLNBTC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "MLNBNB": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "MLNBUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "MLNUSDT": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "GRTTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CAKEBRL": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ICPRUB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "DOTAUD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "AAVEBRL": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "EOSAUD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "DEXEUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LTOBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ADXBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "QUICKBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "QUICKBNB": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "QUICKBUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "C98USDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "C98BUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "C98BNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "C98BTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "CLVBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "CLVBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "CLVBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "CLVUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "QNTBTC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "QNTBNB": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "QNTBUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "QNTUSDT": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "FLOWBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "FLOWBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "FLOWBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "FLOWUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "XECBUSD": {
+    "minq": "1.00",
+    "round": 0
+  },
+  "AXSBRL": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "AXSAUD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "TVKUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "MINABTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MINABNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MINABUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MINAUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "RAYBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "RAYBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "RAYUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "FARMBTC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "FARMBNB": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "FARMBUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "FARMUSDT": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "ALPACABTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ALPACABNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ALPACABUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ALPACAUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "TLMTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "QUICKUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ORNBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MBOXBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MBOXBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MBOXBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MBOXUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "VGXBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "VGXETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "FORUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "REQUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "GHSTUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "TRURUB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "FISBRL": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "WAXPUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "WAXPBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "WAXPBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "WAXPBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "TRIBEBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "TRIBEBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "TRIBEBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "TRIBEUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "GNOUSDT": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "GNOBUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "GNOBNB": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "GNOBTC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "ARPATRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "PROMBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "MTLBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "OGNBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "XECUSDT": {
+    "minq": "1.00",
+    "round": 0
+  },
+  "C98BRL": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SOLAUD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "XRPBIDR": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "POLYBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ELFUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "DYDXUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "DYDXBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "DYDXBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "DYDXBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ELFBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "POLYUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "IDEXUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "VIDTUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SOLBIDR": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "BTCUSDP": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "ETHUSDP": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "BNBUSDP": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "USDPBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "USDPUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "GALAUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "GALABUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "GALABNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "GALABTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "FTMBIDR": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ALGOBIDR": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "CAKEAUD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "KSMAUD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "WAVESRUB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SUNBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ILVUSDT": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "ILVBUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "ILVBNB": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "ILVBTC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "RENBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "YGGUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "YGGBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "YGGBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "YGGBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "STXBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SYSUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DFUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SOLUSDC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ARPARUB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "LTCUAH": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "FETBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ARPABUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "LSKBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "AVAXBIDR": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ALICEBIDR": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "FIDAUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "FIDABUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "FIDABNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "FIDABTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "DENTBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "FRONTUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CVPUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "AGLDBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "AGLDBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "AGLDBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "AGLDUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "RADBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "RADBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "RADBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "RADUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "UNIAUD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "HIVEBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "STPTBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BETABTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BETABNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BETABUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BETAUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SHIBAUD": {
+    "minq": "1.00",
+    "round": 0
+  },
+  "RAREBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "RAREBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "RAREBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "RAREUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "AVAXBRL": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "AVAXAUD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LUNAAUD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "TROYBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "AXSETH": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "FTMETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SOLETH": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "SSVBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SSVETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LAZIOTRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LAZIOEUR": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LAZIOBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LAZIOUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "CHESSBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "CHESSBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "CHESSBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "CHESSUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "FTMAUD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "FTMBRL": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SCRTBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ADXUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "AUCTIONUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "CELOBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "FTMRUB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "NUAUD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NURUB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "REEFTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "REEFBIDR": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SHIBDOGE": {
+    "minq": "1.00",
+    "round": 0
+  },
+  "DARUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DARBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DARBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DARBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BNXBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BNXBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BNXBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BNXUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "RGTUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "RGTBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "RGTBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "RGTBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LAZIOBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "OXTBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "MANATRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ALGORUB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SHIBUAH": {
+    "minq": "1.00",
+    "round": 0
+  },
+  "LUNABIDR": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "AUDUSDC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "MOVRBTC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "MOVRBNB": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "MOVRBUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "MOVRUSDT": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "CITYBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "CITYBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "CITYBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "CITYUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ENSBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ENSBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ENSBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ENSUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SANDETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "DOTETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "MATICETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ANKRBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SANDTRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MANABRL": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "KP3RUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "QIUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "QIBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "QIBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "QIBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "PORTOBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "PORTOUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "PORTOTRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "PORTOEUR": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "POWRUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "POWRBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "AVAXETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SLPTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "FISTRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "LRCTRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "CHRETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "FISBIDR": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "VGXUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "GALAETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "JASMYUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "JASMYBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "JASMYBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "JASMYBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "AMPBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "AMPBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "AMPBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "AMPUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "PLABTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "PLABNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "PLABUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "PLAUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "PYRBTC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "PYRBUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "PYRUSDT": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "RNDRBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "RNDRUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "RNDRBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ALCXBTC": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "ALCXBUSD": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "ALCXUSDT": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "SANTOSBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SANTOSUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SANTOSBRL": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SANTOSTRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "MCBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "MCBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "MCUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BELTRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "COCOSBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DENTTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ENJTRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "NEORUB": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "SANDAUD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SLPBIDR": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ANYBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ANYBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ANYUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BICOBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BICOBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BICOUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "FLUXBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "FLUXBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "FLUXUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ALICETRY": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "FXSUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "GALABRL": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "GALATRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "LUNATRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "REQBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SANDBRL": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "MANABIDR": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SANDBIDR": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "VOXELBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "VOXELBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "VOXELBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "VOXELUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "COSBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "CTXCBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "FTMTRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "MANABNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "MINATRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "XTZTRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "HIGHBTC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "HIGHBUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "HIGHUSDT": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "CVXBTC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "CVXBUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "CVXUSDT": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "PEOPLEBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "PEOPLEBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "PEOPLEUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "OOKIBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "OOKIUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "COCOSTRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "GXSBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LINKBNB": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "LUNAETH": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "MDTBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "NULSBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SPELLBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SPELLUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SPELLBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "USTBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "USTBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "USTUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "JOEBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "JOEBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "JOEUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ATOMETH": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "DUSKBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "EGLDETH": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "ICPETH": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "LUNABRL": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "LUNAUST": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "NEARETH": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "ROSEBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "VOXELETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ALICEBNB": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "ATOMTRY": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "ETHUST": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "GALAAUD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "LRCBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ONEETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "OOKIBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ACHBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ACHBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ACHUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "IMXBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "IMXBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "IMXUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "GLMRBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "GLMRBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "GLMRUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ATOMBIDR": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "DYDXETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "FARMETH": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "FORBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ICPTRY": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "JASMYETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "LINABNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "OOKIETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ROSEETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "UMABUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "UNIETH": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "XTZETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LOKABTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "LOKABNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "LOKABUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "LOKAUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ATOMBRL": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "BNBUST": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "CRVETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "HIGHBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "NEARRUB": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "ROSETRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SCRTUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "API3BTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "API3BUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "API3USDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BTTCUSDT": {
+    "minq": "1.0",
+    "round": 0
+  },
+  "BTTCUSDC": {
+    "minq": "1.0",
+    "round": 0
+  },
+  "BTTCTRY": {
+    "minq": "1.0",
+    "round": 0
+  },
+  "ACABTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ACABUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ACAUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ANCBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ANCBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ANCUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BDOTDOT": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "XNOBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "XNOETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "XNOBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "XNOUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "COSTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "KAVAETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "MCBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ONETRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "WOOBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "WOOBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "WOOBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "WOOUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "CELRETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "PEOPLEBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SLPBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SPELLBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SPELLTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "TFUELBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "AXSTRY": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "DARTRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "NEARTRY": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "IDEXBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ALPINEEUR": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ALPINETRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ALPINEUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ALPINEBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "TUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "TBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "API3BNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BETAETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "INJTRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "TLMBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ASTRBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ASTRUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "API3TRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "GLMRBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "MBOXTRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "GMTBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "GMTBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "GMTBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "GMTUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ANCBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ATOMEUR": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "GALAEUR": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "KSMETH": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "UMATRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "KDABTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "KDABUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "KDAUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "APEUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "APEBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "APEBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ALPINEBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LUNAGBP": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "NEAREUR": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "TWTTRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "WAVESEUR": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "APEEUR": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "APEGBP": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "APETRY": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "BSWUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BSWBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BSWBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "APEBNB": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "GMTBRL": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "GMTETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "JASMYTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SANTOSBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "APEAUD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BIFIUSDT": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "GMTEUR": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "IMXBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "RUNEETH": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "AVAXGBP": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "MULTIBTC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "MULTIBUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "MULTIUSDT": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "APEETH": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "BSWETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "FILTRY": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "FTMEUR": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "GMTGBP": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ZILTRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "GMTTRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "WAVESTRY": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "BTCUST": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "ASTRBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ASTRETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BSWTRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "FTTETH": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "FUNBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "PORTOBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "STEEMUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ZILEUR": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "APEBRL": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "AUDIOTRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BTTCBUSD": {
+    "minq": "1.0",
+    "round": 0
+  },
+  "GMTAUD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MBLBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "MOBUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "MOBBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "MOBBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "NEXOUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "NEXOBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "NEXOBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "REIUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "REIBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "REIETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "GALUSDT": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "GALBUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "GALBNB": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "GALBTC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "JASMYEUR": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "KNCBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SHIBGBP": {
+    "minq": "1.00",
+    "round": 0
+  },
+  "GALEUR": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "GALTRY": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "LDOBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LDOUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "LDOBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ENSTRY": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "DAREUR": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DARETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ALGOETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ALGOTRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "GALETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "EPXUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "EPXBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "RUNETRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "GALBRL": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "STEEMBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "CVCBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "REIBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "DREPBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "AKROBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "PUNDIXBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "LUNCBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "USTCBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "OPBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "OPBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "OPUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "OGBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "KEYBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ASRBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "FIROBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "NKNBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "OPBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "OPEUR": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "GTOBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SNXETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "WBTCBUSD": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "BELETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "LITETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "LEVERUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "LEVERBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BURGERETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "PEOPLEETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "UNFIETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BONDETH": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "STORJTRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "OPETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ETCTRY": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "WINGETH": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "FILETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "GLMBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SSVBUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "STGBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "STGBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "STGUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ANKRTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ARKBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BETHBUSD": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "LOOMBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SNMBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "AMBBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "LUNCUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "PHBBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "GASBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "NEBLBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "PROSBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "VIBBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "GMXBTC": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "GMXBUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "GMXUSDT": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "AGIXBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NEBLUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SNTBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "POLYXBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "POLYXBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "POLYXUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "APTBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "APTUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "APTBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BTCPLN": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "ETHPLN": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "BUSDPLN": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "APTEUR": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "APTTRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "APTBRL": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "QKCBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "OSMOBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "OSMOUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "OSMOBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "HFTBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "HFTBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "HFTUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ARPAETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "PHBUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "VITEBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "HOOKBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "HOOKUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "HOOKBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "HOOKBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MAGICBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MAGICBUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MAGICUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BUSDRON": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "HIFIETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "HIFIUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "RPLBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "RPLBUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "RPLUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "PROSUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "FETTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "GFTBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "AGIXUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "APTETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BTCRON": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "GNSUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "GNSBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SYNBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SYNUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "VIBUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SSVUSDT": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "LQTYUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "LQTYBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "AMBUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BETHUSDT": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "CFXTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "STXTRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "USTCUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "GASUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "GLMUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "PROMUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "QKCUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "UFTUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "IDBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "IDBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "IDUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ARBBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ARBUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "AGIXTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "LOOMUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "OAXUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ARBTUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ARBTRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ARBEUR": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "IDTUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "IDTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "IDEUR": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "LDOTUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "MATICTUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "OPTUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SOLTUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SSVTUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "RDNTBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "RDNTUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "RDNTTUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ARBRUB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "JOETRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MAGICTRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "USDTPLN": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ACHTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "XVSTRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "EGLDRON": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "USDTRON": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "USDTARS": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DOGETUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "WBTCUSDT": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "EDUUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "EDUTUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "EDUBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "EDUBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "EDUEUR": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "EDUTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SUIUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SUITUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SUIBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SUIBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SUIEUR": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SUITRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "AERGOUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "RNDRTRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "PEPEUSDT": {
+    "minq": "1.00",
+    "round": 0
+  },
+  "PEPETUSD": {
+    "minq": "1.00",
+    "round": 0
+  },
+  "FLOKIUSDT": {
+    "minq": "1.00",
+    "round": 0
+  },
+  "FLOKITUSD": {
+    "minq": "1.00",
+    "round": 0
+  },
+  "OGTRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "PEPETRY": {
+    "minq": "1.00",
+    "round": 0
+  },
+  "WBETHETH": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "ASTUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SNTUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "FLOKITRY": {
+    "minq": "1.00",
+    "round": 0
+  },
+  "CITYTRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "COMBOUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "COMBOBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "COMBOTRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "LTCTRY": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "RADTRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BTCARS": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "OPTRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "PAXGTRY": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "MAVBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "MAVUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "MAVTUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CFXTUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "PENDLEBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "PENDLEUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "PENDLETUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MAVTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "OCEANTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "TUSDTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ARBETH": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BCHTRY": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "XVGTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "XVGTUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ARKMUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ARKMTUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ARKMTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ARKMBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ARKMBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "WBETHUSDT": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "ACATRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "AVAXTUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "COMPTUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "COMPTRY": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "XECTRY": {
+    "minq": "1.00",
+    "round": 0
+  },
+  "QUICKTUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "WLDUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "WLDBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BNBFDUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "FDUSDBUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "FDUSDUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ARKMRUB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "WLDTRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "WLDRUB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "AMPTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "OGNTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BTCFDUSD": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "ETHFDUSD": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "ASRTRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ATMTRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ACMTRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BARTRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "JUVTRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "PSGTRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SEIBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SEIBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SEIFDUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SEITRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SEIUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "CYBERBNB": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "CYBERBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "CYBERFDUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "CYBERTRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "CYBERUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "CYBERTUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SEITUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "LPTTRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "UNITRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SOLFDUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "TOMOTRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "UNFITRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "XRPFDUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DOGEFDUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CYBERETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "MTLTRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ARKUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CREAMUSDT": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "GFTUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "IQUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "USDTVAI": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ARBFDUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "FDUSDTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "FRONTTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SUIFDUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "NTRNBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "NTRNUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "NTRNBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "FILFDUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "FRONTTUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "LEVERTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "LTCFDUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "ADAFDUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "RUNETUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "TRBTRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ATOMFDUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "AVAXFDUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BANDTRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BCHFDUSD": {
+    "minq": "0.00100000",
+    "round": 3
+  },
+  "LOOMTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "MATICFDUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ALGOFDUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DOTFDUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "FTMFDUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "LINKFDUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "NEARFDUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "STRAXTRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "TIABTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "TIAUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "TIATRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "MEMEBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "MEMEUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "MEMEFDUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "MEMETUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "MEMETRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ORDIBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ORDIUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ORDITRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "EGLDFDUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "FETFDUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "GASFDUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "INJETH": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "INJTUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "OPFDUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ORDIFDUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "ORDITUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "RNDRFDUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "SHIBTUSD": {
+    "minq": "1.00",
+    "round": 0
+  },
+  "BEAMXUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "ARKTRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BEAMXTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "CAKETRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "CAKETUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "DYDXFDUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "PIVXUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "RUNEFDUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "TIATUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "DOTTUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "GALAFDUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "WLDFDUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "GASTRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "NTRNTRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "VICBTC": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "VICUSDT": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "VICTRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "BLURBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BLURUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BLURTRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BLURFDUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "SUPERFDUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "USTCFDUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "USTCTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "DYDXTRY": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "VANRYUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "VANRYBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "BTCAEUR": {
+    "minq": "0.00001000",
+    "round": 5
+  },
+  "AEURUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ETHAEUR": {
+    "minq": "0.00010000",
+    "round": 4
+  },
+  "EURAEUR": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "AUCTIONFDUSD": {
+    "minq": "0.01000000",
+    "round": 2
+  },
+  "IOTAFDUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "LUNCTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "SUPERTRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "JTOUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "JTOFDUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "JTOTRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "1000SATSUSDT": {
+    "minq": "1.00",
+    "round": 0
+  },
+  "1000SATSFDUSD": {
+    "minq": "1.00",
+    "round": 0
+  },
+  "1000SATSTRY": {
+    "minq": "1.00",
+    "round": 0
+  },
+  "SHIBFDUSD": {
+    "minq": "1.00",
+    "round": 0
+  },
+  "SANDFDUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "MEMEETH": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "IOTATRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "INJFDUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "FIDATRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BONKUSDT": {
+    "minq": "1.00",
+    "round": 0
+  },
+  "BONKFDUSD": {
+    "minq": "1.00",
+    "round": 0
+  },
+  "BONKTRY": {
+    "minq": "1.00",
+    "round": 0
+  },
+  "ACEFDUSD": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ACEUSDT": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ACEBNB": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ACEBTC": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "ACETRY": {
+    "minq": "0.10000000",
+    "round": 1
+  },
+  "BLZFDUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "RARETRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "VANRYTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NFPBTC": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NFPUSDT": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NFPBNB": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NFPFDUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NFPTUSD": {
+    "minq": "1.00000000",
+    "round": 0
+  },
+  "NFPTRY": {
+    "minq": "1.00000000",
+    "round": 0
+  }
+}
