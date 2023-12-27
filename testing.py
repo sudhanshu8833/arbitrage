@@ -44,17 +44,49 @@
 
 # Replace YOUR_API_KEY and YOUR_API_SECRET with your actual Binance API key and secret
 from binance.client import Client
-api_key = 'GUf7tyd95mZMW7xXhKSuXXUhvenGaFZURNrrYFmecqZfFKGuzmYO9dRoPPR1xHTh'
-api_secret = 'FGTiA20a37iEQzTgpv8pQnI4QIeNVlx6EEq5Dfu5rHB60tZVHNB1US8bc4Zu4atw'
-
+api_key = '8lDeuoPStUdNJSmQDgxxvCVtwbM2urIOJV5JTC7rHLjUoDiTjdGWx3OSKLxa9tpM'
+api_secret = '5GjP04VXQuJ2mhai3NrNdU1YhyCpVCH100qzZhLZXBcsKzJPTNfjuelDJQgMHUT6'
+from pprint import pprint
 client = Client(api_key, api_secret)
 
 
-order_response=client.create_order(symbol="BTCUSDT",
-                    side="BUY",
-                    type="MARKET",
-                    quantity=.001)
+# symbols=[sym['symbol'] for sym in (client.get_all_tickers())]
 
+# print(symbols)
+
+
+# order_response=client.create_order(symbol="ETHUSDT",
+#                     side="BUY",
+#                     type="MARKET",
+#                     quantity=.00001)
+
+import json
+precision={}
+
+exchange_info = client.get_exchange_info()
+
+# pprint(exchange_info)
+
+# Iterate through symbols and print precision information
+for symbol_info in exchange_info['symbols']:
+    symbol = symbol_info['symbol']
+    minq=symbol_info['filters'][1]['minQty']
+    mintick = round(1/float(symbol_info['filters'][1]['minQty']),0)
+    temp={}
+    temp['minq']=minq
+    res=0
+    print(symbol,mintick)
+    while(mintick>1):
+        res+=1
+        mintick=mintick/10
+    temp['round']=res
+    precision[symbol]=temp
+    print(symbol,res)
+
+
+# print(precision)
+with open("prec.json","w") as json_file:
+    json.dump(precision,json_file,indent=2)
 # # Get account information
 # data = client.get_all_tickers()
 # # print(data)

@@ -7,16 +7,20 @@ from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 import json
 import os
+import sys
 
+logging.getLogger("pymongo").setLevel(logging.WARNING)
+logging.getLogger("urllib3").setLevel(logging.WARNING)
 uri = "mongodb+srv://sudhanshus883:uWZLgUV61vMuWp8n@cluster0.sxyyewj.mongodb.net/?retryWrites=true&w=majority"
-client = MongoClient(uri, server_api=ServerApi('1'),connect=False)
-bot=client['arbitrage']
+client1 = MongoClient(uri, server_api=ServerApi('1'),connect=False)
+bot=client1['arbitrage']
 admin=bot['admin']
 
 script_dir = os.path.dirname(os.path.realpath(__file__))
-
+if getattr(sys, 'frozen', False):
+    script_dir = os.path.dirname(sys.executable)
 # Create the 'log' directory if it doesn't exist
-log_dir = os.path.join(script_dir, 'log/dev.log')
+log_dir = os.path.join(script_dir, 'log')
 os.makedirs(log_dir, exist_ok=True)
 logging.basicConfig(
     filename=log_dir+'/dev.log',
@@ -141,13 +145,13 @@ def place_trade_orders(client,type, scrip1, scrip2, scrip3, initial_amount, scri
 
     elif type == 'BUY_SELL_SELL':
         s1_quantity = initial_amount/float(scrip_prices[scrip1])
-        price1=place_buy_order(scrip1, s1_quantity, float(scrip_prices[scrip1]))
+        price1=place_buy_order(client,scrip1, s1_quantity)
         
         s2_quantity = s1_quantity
-        price2=place_sell_order(scrip2, s2_quantity, float(scrip_prices[scrip2]))
+        price2=place_sell_order(client,scrip2, s2_quantity)
         
         s3_quantity = s2_quantity * float(scrip_prices[scrip2])
-        price3=place_sell_order(scrip3, s3_quantity, float(scrip_prices[scrip3]))
+        price3=place_sell_order(client,scrip3, s3_quantity)
 
         return price1,price2,price3
         

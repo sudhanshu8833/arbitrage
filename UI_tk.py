@@ -2,12 +2,16 @@ import tkinter as tk
 from tkinter import ttk,messagebox
 from core.strategy import *
 import threading
-
+import urllib3
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
+
+logging.getLogger("pymongo").setLevel(logging.WARNING)
+logging.getLogger("urllib3").setLevel(logging.WARNING)
 uri = "mongodb+srv://sudhanshus883:uWZLgUV61vMuWp8n@cluster0.sxyyewj.mongodb.net/?retryWrites=true&w=majority"
-client = MongoClient(uri, server_api=ServerApi('1'),connect=False)
-bot=client['arbitrage']
+client1 = MongoClient(uri, server_api=ServerApi('1'),connect=False)
+
+bot=client1['arbitrage']
 admin=bot['admin']
 trades=bot['trades']
 screenshot=bot['screenshot']
@@ -72,9 +76,10 @@ class App:
         # Update the existing list with the new positions
         existing_items = self.present_position.get_children()
         for i, position in enumerate(positions):
+            if 'Live' not in position:
+                position['Live']=False
             values = (position['time'], position['base'], position['script1'], position['script_price1'], position['script2'], position['script_price2'], position['script3'], position['script_price3'],
-                    position['initial base account'], position['final base quantity'], position['profits'])
-
+                    position['initial base account'], position['final base quantity'], position['profits'],position['Live'])
 
             if i < len(existing_items):
                 # Update existing item
@@ -86,7 +91,7 @@ class App:
 
 
     def tab2_fun(self):
-        self.present_position=ttk.Treeview(self.tab2,columns=("Time","Base","script1","script_price1","script2","script_price2","script3","script_price3","initial quantity","final quantity","profits"),show="headings")
+        self.present_position=ttk.Treeview(self.tab2,columns=("Time","Base","script1","script_price1","script2","script_price2","script3","script_price3","initial quantity","final quantity","profits","Live"),show="headings")
         self.present_position.tag_configure("even_row", background="black")
         self.present_position.tag_configure("odd_row", background="green")
 
@@ -101,6 +106,7 @@ class App:
         self.present_position.heading("initial quantity",text="initial quantity")
         self.present_position.heading("final quantity",text="final quantity")
         self.present_position.heading("profits",text="profits")
+        self.present_position.heading("Live",text="Live")
         self.present_position.pack(fill="both",expand=True)
         T1=threading.Thread(target=self.populate_treeview)
         T1.start()
@@ -115,7 +121,9 @@ class App:
         existing_items = self.snapshot.get_children()
 
         # Iterate through the results and either update existing items or insert new ones
+
         for i, position in enumerate(positions):
+
             values = (position['time'], position['base'], position['script1'], position['script_price1'], position['script2'], position['script_price2'], position['script3'], position['script_price3'],
                     position['initial base quantity'], position['final base quantity'], position['profit'])
 

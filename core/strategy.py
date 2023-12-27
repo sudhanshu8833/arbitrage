@@ -11,9 +11,12 @@ import sys
 
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
+
+logging.getLogger("pymongo").setLevel(logging.WARNING)
+logging.getLogger("urllib3").setLevel(logging.WARNING)
 uri = "mongodb+srv://sudhanshus883:uWZLgUV61vMuWp8n@cluster0.sxyyewj.mongodb.net/?retryWrites=true&w=majority"
-client = MongoClient(uri, server_api=ServerApi('1'),connect=False)
-bot=client['arbitrage']
+client1 = MongoClient(uri, server_api=ServerApi('1'),connect=False)
+bot=client1['arbitrage']
 admin=bot['admin']
 trades=bot['trades']
 screenshot=bot['screenshot']
@@ -23,25 +26,28 @@ delisted=[]
 
 
 script_dir = os.path.dirname(os.path.realpath(__file__))
+
+if getattr(sys, 'frozen', False):
+    script_dir = os.path.dirname(sys.executable)
+
 log_dir = os.path.join(script_dir, 'log')
 os.makedirs(log_dir, exist_ok=True)
 logging.basicConfig(
-    filename=log_dir+'/dev.log',
+    filename=log_dir+'dev.log',
     level=logging.DEBUG,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
-
+logger = logging.getLogger(__name__)
 background={}
 
-if getattr(sys, 'frozen', False):
 
-    script_dir = os.path.dirname(sys.executable)
-    # print(script_dir)
+
+precision={}
 
 with open(script_dir+"/background.json",'r') as json_file:
     background=json.load(json_file)
 
-logger = logging.getLogger(__name__)
+blacklist=background['Blacklist']
 
 errors=[]
 delisted=[]
@@ -49,6 +55,8 @@ delisted=[]
 def find_delisted_coins():
     data=admin.find_one()
 
+
+    
     data['api_key']=background['api_key']
     data['secret_key']=background['secret_key']
     data['bank_fees']=float(background['bank_fees'])
@@ -67,13 +75,19 @@ def find_delisted_coins():
 
 def main():
     data=admin.find_one()
+    data['api_key']=background['api_key']
+    data['secret_key']=background['secret_key']
+    data['bank_fees']=float(background['bank_fees'])
+
     client=binance_api.login(data['api_key'],data['secret_key'])
     prices=binance_api.ltp_price(client)
     
     symbols=[]
-
+    blacklist=[]
     with open(script_dir+"/tokens.json",'r') as json_file:
         symbols=json.load(json_file)['symbols']
+
+
 
     data['api_key']=background['api_key']
     data['secret_key']=background['secret_key']
@@ -101,11 +115,14 @@ def main():
 
         if s1 in delisted or s2 in delisted or s3 in delisted:
             continue
+        if s1 in blacklist or s2 in blacklist or s3 in blacklist:
+            continue
+
         final_price1,scrip_price1 = check_buy_buy_sell(s1,s2,s3,data['investment'],prices)
         profit_loss1,final_price1 = check_profit_loss(final_price1,data['investment'], data['bank_fees'], data['minimum_profit'])
 
         if profit_loss1>0:
-            result=[datetime.now(),base,s1,prices[s1],s2,prices[s2],s3,prices[s3],data['investment'],final_price1,profit_loss1,"BUY_BUY_SELL"]
+            result=[datetime.now(),base,s1,prices[s1],s2,prices[s2],s3,prices[s3],data['investment'],final_price1,profit_loss1,"BUY_BUY_SELL",data['paper_trading']]
             results.append(result)
 
 
@@ -113,12 +130,12 @@ def main():
         profit_loss2,final_price2 = check_profit_loss(final_price2,data['investment'], data['bank_fees'], data['minimum_profit'])
 
         if profit_loss2>0:
-            result=[datetime.now(),base,s3,prices[s3],s2,prices[s2],s1,prices[s1],data['investment'],final_price2,profit_loss2,"BUY_SELL_SELL"]
+            result=[datetime.now(),base,s3,prices[s3],s2,prices[s2],s1,prices[s1],data['investment'],final_price2,profit_loss2,"BUY_SELL_SELL",data['paper_trading']]
             results.append(result)
 
 
 
-    df=pd.DataFrame(results,columns=["time",'base','script1', 'script_price1', 'script2','script_price2','script3','script_price3','initial base quantity','final base quantity','profit','arbitrage type'])
+    df=pd.DataFrame(results,columns=["time",'base','script1', 'script_price1', 'script2','script_price2','script3','script_price3','initial base quantity','final base quantity','profit','arbitrage type','Live'])
     df=df.sort_values(by='final base quantity', ascending=False)
 
     if len(df)>=1 and df['profit'].iloc[0]>=data['minimum_profit']:
@@ -127,9 +144,7 @@ def main():
             try:
                 place_trade_orders(client,df["arbitrage type"].iloc[0],df['script1'].iloc[0],df['script2'].iloc[0],df['script3'].iloc[0],data['investment'],prices)
             except Exception:
-                # if str(traceback.format_exc()) not in errors:
                 logger.info(str(traceback.format_exc()))
-                errors.append(str(traceback.format_exc()))
 
         final_balance=binance_api.get_balance(client,data['tradable_base_coins'])
 
@@ -152,7 +167,8 @@ def main():
             "script_price3":float(df['script_price3'].iloc[0]),
             "initial base account":float(df['initial base quantity'].iloc[0]),
             "final base quantity":float(df['final base quantity'].iloc[0]),
-            "profits":round(float(profits),2)
+            "profits":round(float(profits),2),
+            "Live":not data['paper_trading']
         }
         trades.insert_one(t)
 
@@ -172,10 +188,8 @@ def run():
             print(f"checked {datetime.now()}")
             main()
         except Exception:
-
-            print(str(traceback.format_exc()))
             logger.info(str(traceback.format_exc()))
-            errors.append(str(traceback.format_exc()))
+
 
 if __name__=="__main__":
     delisted=find_delisted_coins()

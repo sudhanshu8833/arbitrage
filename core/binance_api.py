@@ -4,12 +4,49 @@ from pprint import pprint
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 import json
+import os
+import sys
+import logging
+import requests
+import sys
+
+script_dir = os.path.dirname(os.path.realpath(__file__))
+if getattr(sys, 'frozen', False):
+    script_dir = os.path.dirname(sys.executable)
+# Create the 'log' directory if it doesn't exist
+log_dir = os.path.join(script_dir, 'log')
+os.makedirs(log_dir, exist_ok=True)
+logging.basicConfig(
+    filename=log_dir+'/dev.log',
+    level=logging.DEBUG,  # You can adjust the log level as needed
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
+
+
+
+
+
+# Get and print the public IP address
+
+logging.getLogger("urllib3").setLevel(logging.WARNING)
+
+logging.getLogger("pymongo").setLevel(logging.WARNING)
 uri = "mongodb+srv://sudhanshus883:uWZLgUV61vMuWp8n@cluster0.sxyyewj.mongodb.net/?retryWrites=true&w=majority"
-client = MongoClient(uri, server_api=ServerApi('1'),connect=False)
-bot=client['arbitrage']
+client1 = MongoClient(uri, server_api=ServerApi('1'),connect=False)
+bot=client1['arbitrage']
 admin=bot['admin']
 
 logins={}
+
+script_dir = os.path.dirname(os.path.realpath(__file__))
+if getattr(sys, 'frozen', False):
+    script_dir = os.path.dirname(sys.executable)
+
+precision={}
+with open(script_dir+"/prec.json",'r') as json_file:
+    precision=json.load(json_file)
+
 
 def login(api_key,secret_key):
     if api_key in logins:
@@ -17,6 +54,7 @@ def login(api_key,secret_key):
     
     client = Client(api_key, secret_key)
     logins[api_key]=client
+
     return client
 
 def get_balance(client,base):
@@ -24,7 +62,6 @@ def get_balance(client,base):
     for wallet in account_info['balances']:
         if wallet["asset"]==base:
             return float(wallet['free'])
-
     
     return 0
 
@@ -38,19 +75,14 @@ def ltp_price(client):
     return price_dict
 
 def market_order(client,instrument,side,type,quantity):
-    # order=client.create_order(symbol="BTCUSDT",
-    #                     side="BUY",
-    #                     type="MARKET",
-    #                     quantity=.01
-    #                     )
 
     data=admin.find_one()
     if data['paper_trading']==False:
         order_response=client.create_order(symbol=instrument,
-                            side=side,
-                            type=type,
-                            quantity=quantity)
-    
+                                     side=side,
+                                     type=type,
+                                     quantity=round(quantity,precision[instrument]['round']))
+        logger.info(order_response)
     return order_response
 
 
