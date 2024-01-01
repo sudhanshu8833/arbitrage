@@ -16,12 +16,16 @@ admin=bot['admin']
 trades=bot['trades']
 screenshot=bot['screenshot']
 
+
+is_running=False
+
+
 class App:
 
     def __init__(self,root):
         self.root=root
         self.root.title("ARBITRAGE BOT")
-        self.root.state("zoomed")
+        # self.root.state("zoomed")
 
 
 
@@ -64,7 +68,7 @@ class App:
 
         T1.start()
         T2.start()
-        self.root.after(1000, self.update_page)
+        self.root.after(100000, self.update_page)
 
 
     def populate_treeview(self):
@@ -207,13 +211,25 @@ class App:
         self.dot.grid(column=1,row=7,padx=5,pady=20,sticky='N')
 
 
-
+    def update(self,thread):
+        self.admin=admin.find_one()
+        self.admin['thread']=thread
+        admin.update_one({},{'$set':self.admin})
 
     def start_strategy(self):
-        self.dot.config(foreground="light green")
-        my_thread=threading.Thread(target=run)
-        my_thread.start()
+        global is_running,my_thread
 
+        if not is_running:
+            is_running=True
+            self.update(True)
+            self.dot.config(foreground="light green")
+            my_thread=threading.Thread(target=run)
+            my_thread.start()
+
+        else:
+            is_running=False
+            self.update(False)
+            self.dot.config(foreground="white")
 
     def get_form_data(self):
 

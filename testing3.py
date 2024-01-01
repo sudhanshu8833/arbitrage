@@ -1,19 +1,16 @@
-import requests
+from pymongo.mongo_client import MongoClient
+from pymongo.server_api import ServerApi
 
-def get_public_ip_address():
-    try:
-        # Use ipinfo.io to get the public IP address
-        response = requests.get('https://ipinfo.io')
-        ip_address = response.json()['ip']
-        return ip_address
-    except requests.RequestException as e:
-        print(f"Error: {e}")
-        return None
 
-# Get and print the public IP address
-public_ip_address = get_public_ip_address()
+uri = "mongodb+srv://sudhanshus883:uWZLgUV61vMuWp8n@cluster0.sxyyewj.mongodb.net/?retryWrites=true&w=majority"
+client1 = MongoClient(uri, server_api=ServerApi('1'),connect=False)
+bot=client1['arbitrage']
+admin=bot['admin']
+trades=bot['trades']
+screenshot=bot['screenshot']
 
-if public_ip_address:
-    print(f"The public IP address is: {public_ip_address}")
-else:
-    print("Failed to retrieve the public IP address.")
+
+bot1=client1['sudhanshu']
+admin1=bot1['admin']
+trades1=bot1['trades']
+screenshot1=bot1['screenshot']

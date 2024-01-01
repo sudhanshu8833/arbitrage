@@ -128,30 +128,42 @@ def place_sell_order(client,scrip, quantity):
     order = binance_api.market_order(client,scrip,"SELL","MARKET", quantity)
     return order['fills'][0]['price']
 
-def place_trade_orders(client,type, scrip1, scrip2, scrip3, initial_amount, scrip_prices):
+def place_trade_orders(client,type, script, initial_amount, scrip_prices,base_symbols,data):
+
+
 
     if type == 'BUY_BUY_SELL':
-        s1_quantity = initial_amount/float(scrip_prices[scrip1])
-        price1=place_buy_order(client,scrip1, s1_quantity)
-        
-        s2_quantity = s1_quantity/float(scrip_prices[scrip2])
-        price2=place_buy_order(client,scrip2, s2_quantity)
 
-        s3_quantity = s2_quantity
-        price3=place_sell_order(client,scrip3, s3_quantity)
+        # 1. BTC USDT 2. ETH BTC 3. ETH USDT
+
+        s1_quantity=initial_amount
+        price1=place_buy_order(client,script[0], s1_quantity)
+
+
+        s2_quantity=binance_api.get_balance(client,base_symbols[1])
+        price2=place_buy_order(client,script[1], s2_quantity)
+
+
+        s3_quantity=binance_api.get_balance(client,base_symbols[2])
+        price3=place_sell_order(client,script[2], s3_quantity)
 
         return price1,price2,price3
 
 
     elif type == 'BUY_SELL_SELL':
-        s1_quantity = initial_amount/float(scrip_prices[scrip1])
-        price1=place_buy_order(client,scrip1, s1_quantity)
-        
-        s2_quantity = s1_quantity
-        price2=place_sell_order(client,scrip2, s2_quantity)
-        
-        s3_quantity = s2_quantity * float(scrip_prices[scrip2])
-        price3=place_sell_order(client,scrip3, s3_quantity)
+
+        # 1. BTCUSDT 2. BTCETH 3. ETHUSDT
+        # USDT BTC ETH 
+
+        s1_quantity=initial_amount
+        price1=place_buy_order(client,script[0], s1_quantity)
+
+
+        s2_quantity=binance_api.get_balance(client,base_symbols[1])
+        price2=place_sell_order(client,script[1], s2_quantity)
+
+        s3_quantity=binance_api.get_balance(client,base_symbols[2])
+        price3=place_sell_order(client,script[2], s3_quantity)
 
         return price1,price2,price3
         

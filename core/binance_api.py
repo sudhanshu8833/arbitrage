@@ -25,6 +25,9 @@ logger = logging.getLogger(__name__)
 
 
 
+def round_down(value, decimal_places):
+    multiplier = 10 ** decimal_places
+    return int(value * multiplier) / multiplier
 
 
 # Get and print the public IP address
@@ -61,7 +64,8 @@ def get_balance(client,base):
     account_info = client.get_account()
     for wallet in account_info['balances']:
         if wallet["asset"]==base:
-            return float(wallet['free'])
+            # return float(wallet['free'])
+            return 100
     
     return 0
 
@@ -77,12 +81,23 @@ def ltp_price(client):
 def market_order(client,instrument,side,type,quantity):
 
     data=admin.find_one()
-    if data['paper_trading']==False:
+
+    order_response="no_order"
+    if(side=="BUY"):
+
         order_response=client.create_order(symbol=instrument,
-                                     side=side,
-                                     type=type,
-                                     quantity=round(quantity,precision[instrument]['round']))
-        logger.info(order_response)
+                                        side=side,
+                                        type=type,
+                                        quoteOrderQty=round_down(quantity,precision[instrument]['round']))
+
+
+    if(side=="SELL"):
+        order_response=client.create_order(symbol=instrument,
+                                        side=side,
+                                        type=type,
+                                        quantity=round_down(quantity,precision[instrument]['round']))
+
+    logger.info(order_response)
     return order_response
 
 

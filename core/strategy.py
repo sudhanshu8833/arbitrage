@@ -56,7 +56,6 @@ def find_delisted_coins():
     data=admin.find_one()
 
 
-    
     data['api_key']=background['api_key']
     data['secret_key']=background['secret_key']
     data['bank_fees']=float(background['bank_fees'])
@@ -75,6 +74,10 @@ def find_delisted_coins():
 
 def main():
     data=admin.find_one()
+
+    if(data['thread']==False):
+        return "THREAD STOPPED"
+
     data['api_key']=background['api_key']
     data['secret_key']=background['secret_key']
     data['bank_fees']=float(background['bank_fees'])
@@ -113,9 +116,13 @@ def main():
         s2 = f'{ticker}{intermediate}'  # Eg: ETH/BTC
         s3 = f'{ticker}{base}'          # Eg: ETH/USDT 
 
+        base_symbols=[base,intermediate,ticker]
+
         if s1 in delisted or s2 in delisted or s3 in delisted:
             continue
         if s1 in blacklist or s2 in blacklist or s3 in blacklist:
+            continue
+        if base in blacklist or intermediate in blacklist or ticker in blacklist:
             continue
 
         final_price1,scrip_price1 = check_buy_buy_sell(s1,s2,s3,data['investment'],prices)
@@ -142,7 +149,8 @@ def main():
 
         if data['paper_trading']==False:
             try:
-                place_trade_orders(client,df["arbitrage type"].iloc[0],df['script1'].iloc[0],df['script2'].iloc[0],df['script3'].iloc[0],data['investment'],prices)
+                script=[df['script1'].iloc[0],df['script2'].iloc[0],df['script3'].iloc[0]]
+                place_trade_orders(client,df["arbitrage type"].iloc[0],script,data['investment'],prices,base_symbols,data)
             except Exception:
                 logger.info(str(traceback.format_exc()))
 
@@ -184,13 +192,17 @@ def run():
     delisted=find_delisted_coins()
     while True:
 
-        try:
+        # try:
             print(f"checked {datetime.now()}")
-            main()
-        except Exception:
-            logger.info(str(traceback.format_exc()))
+            val=main()
+            if(val=="THREAD STOPPED"):
+                return 0
+        # except Exception:
+        #     logger.info(str(traceback.format_exc()))
 
 
 if __name__=="__main__":
     delisted=find_delisted_coins()
+    print(delisted)
     run()
+

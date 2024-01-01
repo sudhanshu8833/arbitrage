@@ -1,6 +1,6 @@
 {
-    "api_key":"8lDeuoPStUdNJSmQDgxxvCVtwbM2urIOJV5JTC7rHLjUoDiTjdGWx3OSKLxa9tpM",
-    "secret_key":"5GjP04VXQuJ2mhai3NrNdU1YhyCpVCH100qzZhLZXBcsKzJPTNfjuelDJQgMHUT6",
-    "bank_fees": ".01",
-    "Blacklist":["FIRO","UNFI"]
+    "api_key":"GUf7tyd95mZMW7xXhKSuXXUhvenGaFZURNrrYFmecqZfFKGuzmYO9dRoPPR1xHTh",
+    "secret_key":"FGTiA20a37iEQzTgpv8pQnI4QIeNVlx6EEq5Dfu5rHB60tZVHNB1US8bc4Zu4atw",
+    "bank_fees": ".075",
+    "Blacklist":["FIRO","UNFI","LOKA"]
 }
