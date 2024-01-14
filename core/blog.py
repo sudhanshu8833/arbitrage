@@ -9,11 +9,13 @@ import json
 import os
 import sys
 
+database='arbitrage'
+
 logging.getLogger("pymongo").setLevel(logging.WARNING)
 logging.getLogger("urllib3").setLevel(logging.WARNING)
 uri = "mongodb+srv://sudhanshus883:uWZLgUV61vMuWp8n@cluster0.sxyyewj.mongodb.net/?retryWrites=true&w=majority"
 client1 = MongoClient(uri, server_api=ServerApi('1'),connect=False)
-bot=client1['arbitrage']
+bot=client1[database]
 admin=bot['admin']
 
 script_dir = os.path.dirname(os.path.realpath(__file__))
@@ -49,7 +51,7 @@ def get_crypto_combinations(market_symbols, base):
     combinations = []
     for sym1 in market_symbols:   
         sym1_token1 = sym1.split('/')[0]
-        sym1_token2 = sym1.split('/')[1]   
+        sym1_token2 = sym1.split('/')[1]
         if (sym1_token2 == base):
             for sym2 in market_symbols:
                 sym2_token1 = sym2.split('/')[0]
@@ -65,13 +67,14 @@ def get_crypto_combinations(market_symbols, base):
                                 'ticker':sym2_token1,
                             }
                             combinations.append(combination)
+
     return combinations
 
 def check_buy_buy_sell(scrip1, scrip2, scrip3,initial_investment,prices):
     
     ## SCRIP1
     investment_amount1 = initial_investment
-    current_price1 = float(prices[scrip1])
+    current_price1 = float(prices[scrip1]['ask'])
     final_price = 0
     scrip_prices = {}
     
@@ -80,13 +83,13 @@ def check_buy_buy_sell(scrip1, scrip2, scrip3,initial_investment,prices):
 
         ## SCRIP2
         investment_amount2 = buy_quantity1     
-        current_price2 = float(prices[scrip2])
+        current_price2 = float(prices[scrip2]['ask'])
         if current_price2 is not None and not check_if_float_zero(current_price2):
             buy_quantity2 = round(investment_amount2 / current_price2, 8)
             
             ## SCRIP3
             investment_amount3 = buy_quantity2     
-            current_price3 = float(prices[scrip3])
+            current_price3 = float(prices[scrip3]['bid'])
             if current_price3 is not None and not check_if_float_zero(current_price3):
                 sell_quantity3 = buy_quantity2
                 final_price = round(sell_quantity3 * current_price3,3)
@@ -98,7 +101,7 @@ def check_buy_sell_sell(scrip1, scrip2, scrip3,initial_investment,prices):
 
     ## SCRIP1
     investment_amount1 = initial_investment
-    current_price1 = float(prices[scrip1])
+    current_price1 = float(prices[scrip1]['ask'])
     final_price = 0
     scrip_prices = {}
     if current_price1 is not None and not check_if_float_zero(current_price1):
@@ -106,14 +109,14 @@ def check_buy_sell_sell(scrip1, scrip2, scrip3,initial_investment,prices):
 
         ## SCRIP2
         investment_amount2 = buy_quantity1     
-        current_price2 = float(prices[scrip2])
+        current_price2 = float(prices[scrip2]['bid'])
         if current_price2 is not None and not check_if_float_zero(current_price2):
             sell_quantity2 = buy_quantity1
             sell_price2 = round(sell_quantity2 * current_price2,8)
 
             ## SCRIP1
             investment_amount3 = sell_price2     
-            current_price3 = float(prices[scrip3])
+            current_price3 = float(prices[scrip3]['bid'])
             if current_price3 is not None and not check_if_float_zero(current_price3):
                 sell_quantity3 = sell_price2
                 final_price = round(sell_quantity3 * current_price3,3)
@@ -158,11 +161,10 @@ def place_trade_orders(client,type, script, initial_amount, scrip_prices,base_sy
         s1_quantity=initial_amount
         price1=place_buy_order(client,script[0], s1_quantity)
 
-
-        s2_quantity=binance_api.get_balance(client,base_symbols[1])
+        s2_quantity=binance_api.get_balance(client,base_symbols[2])
         price2=place_sell_order(client,script[1], s2_quantity)
 
-        s3_quantity=binance_api.get_balance(client,base_symbols[2])
+        s3_quantity=binance_api.get_balance(client,base_symbols[1])
         price3=place_sell_order(client,script[2], s3_quantity)
 
         return price1,price2,price3

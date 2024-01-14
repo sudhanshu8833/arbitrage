@@ -10,6 +10,8 @@ import logging
 import requests
 import sys
 
+database='arbitrage'
+
 script_dir = os.path.dirname(os.path.realpath(__file__))
 if getattr(sys, 'frozen', False):
     script_dir = os.path.dirname(sys.executable)
@@ -23,21 +25,13 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-
-
-def round_down(value, decimal_places):
-    multiplier = 10 ** decimal_places
-    return int(value * multiplier) / multiplier
-
-
 # Get and print the public IP address
 
 logging.getLogger("urllib3").setLevel(logging.WARNING)
-
 logging.getLogger("pymongo").setLevel(logging.WARNING)
 uri = "mongodb+srv://sudhanshus883:uWZLgUV61vMuWp8n@cluster0.sxyyewj.mongodb.net/?retryWrites=true&w=majority"
 client1 = MongoClient(uri, server_api=ServerApi('1'),connect=False)
-bot=client1['arbitrage']
+bot=client1[database]
 admin=bot['admin']
 
 logins={}
@@ -49,6 +43,13 @@ if getattr(sys, 'frozen', False):
 precision={}
 with open(script_dir+"/prec.json",'r') as json_file:
     precision=json.load(json_file)
+
+
+
+
+def round_down(value, decimal_places):
+    multiplier = 10 ** decimal_places
+    return int(value * multiplier) / multiplier
 
 
 def login(api_key,secret_key):
@@ -64,40 +65,50 @@ def get_balance(client,base):
     account_info = client.get_account()
     for wallet in account_info['balances']:
         if wallet["asset"]==base:
-            # return float(wallet['free'])
-            return 100
+            return float(wallet['free'])
+
     
     return 0
 
 def ltp_price(client):
-    prices = client.get_all_tickers()
+    prices = client.get_orderbook_tickers()
     price_dict={}
 
+
     for price in prices:
-        price_dict[price['symbol']]=price['price']
+        temp={}
+        temp['bid']=price['bidPrice']
+        temp['ask']=price['askPrice']
+        price_dict[price['symbol']]=temp
 
     return price_dict
 
 def market_order(client,instrument,side,type,quantity):
 
-    data=admin.find_one()
-
+    dici={
+        'int':instrument,
+        'side':side,
+        'type':type,
+        'quan':quantity
+    }
+    logger.info(dici)
     order_response="no_order"
     if(side=="BUY"):
 
         order_response=client.create_order(symbol=instrument,
                                         side=side,
                                         type=type,
-                                        quoteOrderQty=round_down(quantity,precision[instrument]['round']))
+                                        quoteOrderQty=quantity)
 
 
     if(side=="SELL"):
         order_response=client.create_order(symbol=instrument,
                                         side=side,
                                         type=type,
-                                        quantity=round_down(quantity,precision[instrument]['round']))
+                                        quantity=round_down(quantity,precision[instrument]["round"]))
 
     logger.info(order_response)
+
     return order_response
 
 

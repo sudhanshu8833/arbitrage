@@ -6,12 +6,14 @@ import urllib3
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
+database='arbitrage'
+
 logging.getLogger("pymongo").setLevel(logging.WARNING)
 logging.getLogger("urllib3").setLevel(logging.WARNING)
 uri = "mongodb+srv://sudhanshus883:uWZLgUV61vMuWp8n@cluster0.sxyyewj.mongodb.net/?retryWrites=true&w=majority"
 client1 = MongoClient(uri, server_api=ServerApi('1'),connect=False)
 
-bot=client1['arbitrage']
+bot=client1[database]
 admin=bot['admin']
 trades=bot['trades']
 screenshot=bot['screenshot']
@@ -68,7 +70,7 @@ class App:
 
         T1.start()
         T2.start()
-        self.root.after(100000, self.update_page)
+        self.root.after(1000, self.update_page)
 
 
     def populate_treeview(self):
@@ -87,10 +89,12 @@ class App:
 
             if i < len(existing_items):
                 # Update existing item
-                self.present_position.item(existing_items[i], values=values, tags=("even_row" if i % 2 == 0 else "odd_row"))
+                # self.present_position.item(existing_items[i], values=values, tags=("even_row" if i % 2 == 0 else "odd_row"))
+                self.present_position.item(existing_items[i], values=values)
             else:
                 # Insert new item at the end of the list
-                self.present_position.insert("", "end", values=values, tags=("even_row" if i % 2 == 0 else "odd_row"))
+                # self.present_position.insert("", "end", values=values, tags=("even_row" if i % 2 == 0 else "odd_row"))
+                self.present_position.insert("", "end", values=values)
 
 
 
@@ -99,8 +103,8 @@ class App:
         self.present_position.tag_configure("even_row", background="black")
         self.present_position.tag_configure("odd_row", background="green")
 
-        self.present_position.heading("Time",text="Time")
-        self.present_position.heading("Base",text="Base")
+        # self.present_position.heading("Time",text="Time")
+        # self.present_position.heading("Base",text="Base")
         self.present_position.heading("script1",text="script1")
         self.present_position.heading("script_price1",text="script_price1")
         self.present_position.heading("script2",text="script2")
@@ -133,15 +137,23 @@ class App:
 
             if i < len(existing_items):
                 # Update existing item
-                self.snapshot.item(existing_items[i], values=values, tags=("even_row" if i % 2 == 0 else "odd_row"))
+                # self.snapshot.item(existing_items[i], values=values, tags=("even_row" if i % 2 == 0 else "odd_row"))
+                self.snapshot.item(existing_items[i], values=values)
+
             else:
                 # Insert new item at the end of the list
-                self.snapshot.insert("", "end", values=values, tags=("even_row" if i % 2 == 0 else "odd_row"))
+                # self.snapshot.insert("", "end", values=values, tags=("even_row" if i % 2 == 0 else "odd_row"))
+                self.snapshot.insert("", "end", values=values)
+
+        # for j in range(len(positions),len(existing_items)):
+        #     # Check if the list is not empty before attempting to delete
+  
+        #     self.snapshot.delete(existing_items[j])   # Delete the last item
 
     def tab3_fun(self):
         self.snapshot=ttk.Treeview(self.tab3,columns=("Time","Base","script1","script_price1","script2","script_price2","script3","script_price3","initial quantity","final quantity","profits"),show="headings")
-        self.snapshot.tag_configure("even_row", background="black")
-        self.snapshot.tag_configure("odd_row", background="green")
+        # self.snapshot.tag_configure("even_row", background="black")
+        # self.snapshot.tag_configure("odd_row", background="green")
 
         self.snapshot.heading("Time",text="Time")
         self.snapshot.heading("Base",text="Base")
@@ -205,7 +217,7 @@ class App:
         self.submit.grid(column=1,row=5,padx=5,pady=40,sticky='N')
 
 
-        self.start=tk.Button(self.tab1,text="Start Strategy",command=self.start_strategy)
+        self.start=tk.Button(self.tab1,text="Start/Stop Strategy",command=self.start_strategy)
         self.dot = tk.Label(self.tab1, text="●", font=("Helvetica", 36))
         self.start.grid(column=1,row=6,padx=5,pady=20,sticky='N')
         self.dot.grid(column=1,row=7,padx=5,pady=20,sticky='N')
